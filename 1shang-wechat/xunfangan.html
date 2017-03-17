@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />        
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" /> 
+<title>询方案</title>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+	var controller = {
+		init:function(){
+			var _this = this;
+			_this.listSwitch();
+		},
+		listSwitch:function(){
+			$(".fanganList dd").each(function(){
+				var _height = $(this).height();
+				$(this).attr("domheight",_height);
+			});
+			$(".toDetail").click(function(){
+				var $this = $(this);
+				var $dd = $this.closest("dl").find("dd");
+				var $val = $this.val();
+				if($val == "查看")
+				{
+					var height = $dd.attr("domheight");
+					$this.val("收起");
+					$dd.css({"height":0,"overflow":"hidden","display":"block"}).animate({"height":height},800);
+				}
+				else
+				{
+					$dd.animate({"height":0},800,function(){
+						$(this).hide();
+						$this.val("查看");
+					});
+				}
+			});
+		}
+	};
+	$(document).ready(function(e) {
+        controller.init();
+    });
+</script>
+</head>
+
+<body>
+
+<div class="header">
+	<a href="#" class="leftBtn"></a>
+	我的方案
+</div>
+
+<div class="center">
+	<table class="stepTable" cellpadding="0" cellspacing="0">
+    	<tr>
+        	<th width="20%" class="finish"><span>1</span></th>
+            <th width="20%" class="unfinish"><span>2</span></th>
+            <th width="20%" class="unfinish"><span>3</span></th>
+            <th width="20%" class="unfinish"><span>4</span></th>
+            <th width="20%" class="unfinish"><span>5</span></th>
+        </tr>
+        <tr>
+        	<td class="finish">已提交</td>
+            <td class="unfinish">处理中</td>
+            <td class="unfinish">已发送</td>
+            <td class="unfinish">已报价</td>
+            <td class="unfinish">已下单</td>
+        </tr>
+    </table>
+    <div class="requireTable">        	
+        <table cellpadding="0" cellspacing="0" width="95%">
+            <tr>
+                <th colspan="2">
+                    <h2>您的需求</h2>
+                </th>
+            </tr>
+            <tr>
+                <td width="45%">应用场景：网络活动</td>
+                <td width="55%">提交人：400TEST</td>
+            </tr>
+            <tr>
+                <td>目标人群：时尚青少年</td>
+                <td>联系方式：13813813811</td>
+            </tr>
+            <tr>
+                <td>商品特性：生活服务</td>
+                <td>销售联系人：王振</td>
+            </tr>
+            <tr>
+                <td>单价区间:0-4元</td>
+                <td>销售联系方式：13813813811</td>
+            </tr>
+            <tr>
+                <td colspan="2">预算区间：100-1000</td>
+            </tr>
+            <tr>
+                <td colspan="2">提交时间：2015-07-20 24:00:00</td>
+            </tr>
+        </table>
+    </div>
+    <!--处理中-->
+    <div class="resultBox" style="display:none;">    	
+    	<div class="loading"></div>
+        <p>易赏正在为您处理需求，请稍后！</p>
+    </div>
+    <!--处理中-->
+    <!--成功-->
+    <div class="resultBox" style="display:none;">    	
+    	<div class="success"></div>
+        <p>您的需求已经提交成功，请耐心等待易赏处理！</p>
+    </div>
+    <!--成功-->
+    <!--不满意-->
+    <div class="resultBox" style="display:none;">    	
+        <p><img src="images/imgUnsatisfied .jpg" width="22" />您不满意本方案，请查看其他方案!</p>
+        <input class="backBtn" type="button" value="返回" />
+    </div>
+    <!--不满意-->
+    <!--满意-->
+    <div class="resultBox" style="display:none;">    	
+        <p><img src="images/imgSatisfied.jpg" width="22" />您满意本方案，请等待易赏报价!</p>
+    </div>
+    <!--满意-->
+    <!--已报价-->
+    <div class="resultBox" style="display:none;">    	
+        <p><img src="images/imgBaojia.jpg" width="22" />易赏已报价，请至PC端查看报价详情!</p>
+    </div>
+    <!--已报价-->
+    <!--已下单-->
+    <div class="resultBox">    	
+        <p><img src="images/imgComplete.jpg" height="22" />已完成下单!</p>
+    </div>
+    <!--已下单-->
+    <div class="fanganList">
+    	<h3>以下是易赏为您提供的方案</h3>
+        <dl>
+        	<dt>
+            	<span>方案一</span>
+                <input type="button" class="toDetail" value="查看" />
+            </dt>
+            <dd>
+            	<p>推荐理由：按设计和会计法开始的开发接口水电费，大家分开多久放假打开肌肤看来大家分开的交罚款，打开，发动机辅导费。</p>
+                <h4>奖品推荐</h4>
+                <table class="prizeTable" cellpadding="0" cellspacing="0">
+                	<tr>
+                    	<td class="border" width="33%">
+                        	奖品名称<br />
+                            全国三网话费
+                        </td>
+                        <td class="border" width="33%">
+                        	提货方式<br />
+                            直充(API接口)
+                        </td>
+                        <td width="34%">
+                        	发放方式<br />
+                            短信发送
+                        </td>
+                    </tr>
+                </table>
+                <h4>其他推荐</h4>
+                <ul class="otherList">
+                	<li><span>推荐预算：</span>10万元(80%采购奖品,20%服务费用)</li>
+                    <li><span>可选平台服务：</span>易捷发服务介绍</li>
+                </ul>
+                <h4>应用案例</h4>
+                <table class="anliTable" cellpadding="0" cellspacing="0">
+                	<tr>
+                    	<td width="65" align="right">客户：</td>
+                        <td width="140">康师傅冰红茶</td>
+                        <td rowspan="4"><img src="http://1shang.com/images/imgPlanEgDetail1.png" width="100%" /></td>
+                    </tr>
+                    <tr>
+                    	<td align="right">代理公司：</td>
+                        <td>品盟市场营销</td>
+                    </tr>
+                    <tr>
+                    	<td align="right">行业：</td>
+                        <td>快消</td>
+                    </tr>
+                    <tr>
+                    	<td align="right">活动时间：</td>
+                        <td>2014年5月1日-9月30日</td>
+                    </tr>
+                    <tr>
+                    	<td align="right">活动奖品：</td>
+                        <td colspan="2">1.价值168元限量版明星点头公仔2.1/2/3元话费3.价值100元优惠券礼包</td>
+                    </tr>
+                    <tr>
+                    	<td align="right">活动机制：</td>
+                        <td colspan="2">购买促销装撕开瓶标获取13位编码，登录活动网站输入编码或短信发送至指定号码或通过官方微信参与抽奖</td>
+                    </tr>
+                    <tr>
+                    	<td colspan="3" align="center" class="last">
+                        	<input type="button" class="grayBtn" value="不感兴趣" />
+                            <input type="button" class="blueBtn" value="感兴趣，请报价" />
+                        </td>
+                    </tr>
+                </table>
+            </dd>
+        </dl>
+        <dl>
+        	<dt>
+            	<span>方案二</span>
+                <input type="button" class="toDetail" value="查看" />
+            </dt>
+            <dd>
+            	<p>推荐理由：按设计和会计法开始的开发接口水电费，大家分开多久放假打开肌肤看来大家分开的交罚款，打开，发动机辅导费。</p>
+                <h4>奖品推荐</h4>
+                <table class="prizeTable" cellpadding="0" cellspacing="0">
+                	<tr>
+                    	<td class="border" width="33%">
+                        	奖品名称<br />
+                            全国三网话费
+                        </td>
+                        <td class="border" width="33%">
+                        	提货方式<br />
+                            直充(API接口)
+                        </td>
+                        <td width="34%">
+                        	发放方式<br />
+                            短信发送
+                        </td>
+                    </tr>
+                </table>
+                <h4>其他推荐</h4>
+                <ul class="otherList">
+                	<li><span>推荐预算：</span>10万元(80%采购奖品,20%服务费用)</li>
+                    <li><span>可选平台服务：</span>易捷发服务介绍</li>
+                </ul>
+                <h4>应用案例</h4>
+                <table class="anliTable" cellpadding="0" cellspacing="0">
+                	<tr>
+                    	<td width="65" align="right">客户：</td>
+                        <td width="140">康师傅冰红茶</td>
+                        <td rowspan="4"><img src="http://1shang.com/images/imgPlanEgDetail1.png" width="100%" /></td>
+                    </tr>
+                    <tr>
+                    	<td align="right">代理公司：</td>
+                        <td>品盟市场营销</td>
+                    </tr>
+                    <tr>
+                    	<td align="right">行业：</td>
+                        <td>快消</td>
+                    </tr>
+                    <tr>
+                    	<td align="right">活动时间：</td>
+                        <td>2014年5月1日-9月30日</td>
+                    </tr>
+                    <tr>
+                    	<td align="right">活动奖品：</td>
+                        <td colspan="2">1.价值168元限量版明星点头公仔2.1/2/3元话费3.价值100元优惠券礼包</td>
+                    </tr>
+                    <tr>
+                    	<td align="right">活动机制：</td>
+                        <td colspan="2">购买促销装撕开瓶标获取13位编码，登录活动网站输入编码或短信发送至指定号码或通过官方微信参与抽奖</td>
+                    </tr>
+                    <tr>
+                    	<td colspan="3" align="center" class="last">
+                        	<input type="button" class="grayBtn" value="不感兴趣" />
+                            <input type="button" class="blueBtn" value="感兴趣，请报价" />
+                        </td>
+                    </tr>
+                </table>
+            </dl>
+        </dd>
+        <dl class="gray">
+        	<dt>
+            	<span>方案三</span>
+                <input type="button" class="toDetail" value="查看" />
+            </dt>
+            <dd>
+            	<p>推荐理由：按设计和会计法开始的开发接口水电费，大家分开多久放假打开肌肤看来大家分开的交罚款，打开，发动机辅导费。</p>
+                <h4>奖品推荐</h4>
+                <table class="prizeTable" cellpadding="0" cellspacing="0">
+                	<tr>
+                    	<td class="border" width="33%">
+                        	奖品名称<br />
+                            全国三网话费
+                        </td>
+                        <td class="border" width="33%">
+                        	提货方式<br />
+                            直充(API接口)
+                        </td>
+                        <td width="34%">
+                        	发放方式<br />
+                            短信发送
+                        </td>
+                    </tr>
+                </table>
+                <h4>其他推荐</h4>
+                <ul class="otherList">
+                	<li><span>推荐预算：</span>10万元(80%采购奖品,20%服务费用)</li>
+                    <li><span>可选平台服务：</span>易捷发服务介绍</li>
+                </ul>
+                <h4>应用案例</h4>
+                <table class="anliTable" cellpadding="0" cellspacing="0">
+                	<tr>
+                    	<td width="65" align="right">客户：</td>
+                        <td width="140">康师傅冰红茶</td>
+                        <td rowspan="4"><img src="http://1shang.com/images/imgPlanEgDetail1.png" width="100%" /></td>
+                    </tr>
+                    <tr>
+                    	<td align="right">代理公司：</td>
+                        <td>品盟市场营销</td>
+                    </tr>
+                    <tr>
+                    	<td align="right">行业：</td>
+                        <td>快消</td>
+                    </tr>
+                    <tr>
+                    	<td align="right">活动时间：</td>
+                        <td>2014年5月1日-9月30日</td>
+                    </tr>
+                    <tr>
+                    	<td align="right">活动奖品：</td>
+                        <td colspan="2">1.价值168元限量版明星点头公仔2.1/2/3元话费3.价值100元优惠券礼包</td>
+                    </tr>
+                    <tr>
+                    	<td align="right">活动机制：</td>
+                        <td colspan="2">购买促销装撕开瓶标获取13位编码，登录活动网站输入编码或短信发送至指定号码或通过官方微信参与抽奖</td>
+                    </tr>
+                    <tr>
+                    	<td colspan="3" align="center" class="last">
+                        	<input type="button" class="grayBtn" value="不感兴趣" />
+                            <input type="button" class="blueBtn" value="感兴趣，请报价" />
+                        </td>
+                    </tr>
+                </table>
+            </dd>
+        </dl>
+    </div>
+</div>
+
+</body>
+</html>

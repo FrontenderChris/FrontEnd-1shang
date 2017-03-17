@@ -1,0 +1,147 @@
+body{ background:#fff;}
+body.gray{ background:#303741;}
+/*header*/
+.header{ height:50px; background:#0077cb; position:relative; line-height:50px; text-align:center; color:#fff; font-size:18px;}
+.header .leftBtn{ width:105px; height:50px; display:block; position:absolute; top:0; left:0; background:url(../images/topLogo.png) no-repeat; background-size:110px 50px;}
+/*center*/
+.center{ width:100%; padding-bottom:10px; min-width:320px; min-height:400px; overflow:hidden; zoom:1;}
+.center .w100Text{ width:96%; height:50px; padding-left:4%; border:none; border-radius:5px; background:#fff; font-size:18px;}
+.center .w60Text{ width:56%; height:50px; padding-left:4%; border:none; border-radius:5px; background:#fff; font-size:18px;}
+.center .w38Btn{ width:38%; height:50px; border:none; padding:0; border-radius:5px; background:#ff6d00; color:#fff; font-size:18px;}
+.center .w38Btn.gray{ background:#666;}
+.center .submitBtn{ width:100%; height:50px; border:none; padding:0; text-align:center; color:#fff; font-size:24px; background:#0077cb; border-radius:5px; cursor:pointer;}
+/*bind-page*/
+.center .logo-5t{ width:178px; height:170px; margin:25px auto; background:url(../images/logo5t.png) no-repeat; background-size:178px 170px;}
+.center .bindText{ width:90%; margin:0 auto;}
+.center .bindText p{ line-height:32px; font-size:24px; color:#fff; text-align:center;}
+.center .bindTable{ width:94%; margin: 50px auto;}
+.center .bindTable li{ min-height:30px; line-height:30px; font-size:14px; clear:both;}
+.center .bindTable li.errorShow{ color:#f00;}
+/*myplan*/
+.planBox .searchTable{ width:100%; padding:15px 0 20px; background:#d8eefe; border-top:1px solid #fff;}
+.planBox .searchTable ul{ margin:0 15px;}
+.planBox .searchTable li{ height:28px; line-height:28px; color:#545454; margin-bottom:3px;}
+.planBox .searchTable li.searchTitle{ font-size:16px; color:#2c2c2c; border-bottom:2px solid #fff;}
+.planBox .searchTable li.searchTitle .yellow{ font-size:14px; font-weight:bold; color:#f89424;}
+.planBox .searchTable li .searchText{ width:175px; padding-left:5px; height:26px; border:1px solid #0077cb; background:#fff; color:#545454;}
+.planBox .searchTable li .searchBtn{ width:40px; height:28px; padding:0; border:none; color:#fff; background:#0077cb; cursor:pointer;}
+.planBox .searchTable h3{ width:90%; margin:0 auto; line-height:28px; color:#2c2c2c; font-size:15px;}
+.planBox .searchTable table{ margin:0 auto;}
+.planBox .searchTable table td{ height:20px; line-height:20px; color:#545454; font-size:14px;}
+.planBox .searchTable table td b{ color:#2c2c2c; }
+.planBox p.orderSub{ height:36px; padding-left:15px; color:#545454; line-height:36px;}
+.planBox p.orderSub b{ color:#545454;}
+.planBox table.orderTable{ width:100%; text-align:left; table-layout:fixed;}
+.planBox table.orderTable th{ height:36px; color:#fff; background:#0077cb;}
+.planBox table.orderTable td{ height:36px; color:#545454; font-size:12px; font-weight:bold; background:#fff; border-bottom:1px solid #f1f1f3; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.planBox .planBtn{ width:90px; height:26px; border:none; border-radius:4px; font-size:15px; color:#fff; background:#0077cb; cursor:pointer;}
+.planBox .userInfo{ height:68px; background:#fff;}
+.planBox .userInfo .avatar{ width:54px; height:54px; float:left; margin:6px 0 0 4%; border:1px solid #adadad; border-radius:27px; background:#fff; overflow:hidden;}
+.planBox .userInfo .avatar span{ width:44px; height:44px; margin:5px; display:block; border-radius:22px; overflow:hidden;}
+.planBox .userInfo .userText{ width:130px; height:40px; padding:12px 0; float:left; margin-left:4%;}
+.planBox .userInfo .userText p.userName{ font-size:15px; color:#2c2c2c; line-height:20px; }
+.planBox .userInfo .userText p.userMobile{ font-size:14px; color:#f89424; line-height:20px; font-weight:600;}
+.planBox .userInfo .planBtn{  margin:21px 4% 0 0; float:right;}
+.planBox .planInfo{ width:90%; margin:0 auto 10px; overflow:hidden;}
+.planBox .planInfo .planBtn{ margin:15px 0 8px;}
+.planBox .planInfo h3{ color:#2c2c2c; font-size:15px; line-height:24px;}
+.planBox .planInfo p{ color:#545454; font-size:12px; line-height:18px;}
+.planBox .stepList{ width:80%; margin:0 auto;}
+.planBox .stepList li{ height:26px;}
+.planBox .stepList li.blue01{ background:url(../images/bgBlueStep1.png) left repeat-y; background-size:27px 2px;}
+.planBox .stepList li.blue02{ padding-left:30px; color:#0077cb; font-size:12px; line-height:13px; background:url(../images/bgBlueStep2.png) left no-repeat; background-size:27px 26px;}
+.planBox .stepList li.blueEnd{ background:url(../images/bgBlueStep3.png) top left no-repeat; background-size:27px 10px;}
+.planBox .stepList li.gray01{ background:url(../images/bgGrayStep1.png) left repeat-y; background-size:27px 2px;}
+.planBox .stepList li.gray02{ padding-left:30px; color:#b6b6b6; line-height:26px; background:url(../images/bgGrayStep2.png) left no-repeat; background-size:27px 26px;}
+.planBox .stepList li.grayEnd{ background:url(../images/bgGrayStep3.png) top left no-repeat; background-size:27px 10px;}
+.planBox .planList{ width:100%;}
+.planBox .planList li{ height:52px; border:1px solid #76838c; background:#fff; margin-bottom:5px;}
+.planBox .planList li span.numIco{ width:32px; height:32px; margin:9px 9px 0 4%; display:block; float:left; border-radius:16px; border:1px solid #0077cb; line-height:32px; font-size:16px; color:#0077cb; text-align:center; font-weight:600;}
+.planBox .planList li .planText{ width:130px; height:40px; padding:6px 0; float:left;}
+.planBox .planList li .planText p{ line-height:20px; font-size:15px; color:#2c2c2c;}
+.planBox .planList li .planText p.time{ font-weight:600; color:#f89424;}
+.planBox .planList li .detailLink{ width:85px; height:26px; padding:0; margin:12px 4% 0 0; display:block; float:right; border-radius:4px; border:1px solid #0077cb; line-height:26px; text-align:center; color:#0077cb; font-size:15px;}
+.planBox .total{ line-height:40px; text-align:right; margin-right:15px;}
+.planBox .total b{ color:#ff6d00;}
+
+/*news*/
+.newsDetail{ width:90%; margin:5% auto; }
+.newsDetail p{ font-size:14px; line-height:24px; text-indent:2em;}
+/*consultBox*/
+.consultBox{ width:100%; margin:5% auto; text-align:center;}
+.consultBox h2{ line-height:24px; font-size:20px; color:#2c2c2c;}
+.consultBox h3{ line-height:24px; font-size:16px; color:#2c2c2c;}
+.consultBox .consultList{ margin:20px 0;}
+.consultBox .consultList li{ width:100%; height:50px; border:1px solid #76838c; margin-bottom:10px; line-height:50px; background:url(../images/bgSelect.png) 92% 16px #fff no-repeat; background-size:18px 18px; position:relative;}
+.consultBox .consultList li select{ width:100%; height:50px; border:none; padding:0; position:absolute; top:0; left:0;filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0; opacity: 0;}
+.consultBox .consultList li .left{ width:40%; height:50px; display:block; float:left; line-height:50px; text-align:right; color:#2c2c2c;}
+.consultBox .consultList li .right{ width:26%; height:50px; margin-right:13%; display:block; float:right; line-height:50px; text-align:left; color:#f89424;}
+.consultBox .submitBtn{ width:90%; height:42px; padding:0; border:none; border-radius:5px; color:#fff; background:#ff6700; cursor:pointer;}
+
+/**/
+.detailList li{ height:56px; padding:12px 40px 12px 110px;}
+.detailList li p{ font-size:12px; line-height:18px; color:#2c2c2c;}
+.detailList li p.tit{ font-size:15px; line-height:20px; color:#0077cb;}
+.detailList li.list1,.detailList li.list3{ background:#acacac;}
+.detailList li.list1 p,.detailList li.list3 p{ color:#fff;}
+.detailList .yunyingList li.list1{ background:url(../images/bgYunying1.jpg) #acacac 30px 10px no-repeat; background-size:58px 58px;}
+.detailList .yunyingList li.list2{ background:url(../images/bgYunying2.jpg) 30px 10px no-repeat; background-size:58px 58px;}
+.detailList .yunyingList li.list3{ background:url(../images/bgYunying3.jpg) #acacac 30px 10px no-repeat; background-size:58px 58px;}
+.detailList .yunyingList li.list4{ background:url(../images/bgYunying4.jpg) 30px 10px no-repeat; background-size:58px 58px;}
+.detailList .baozhangList li.list1{ background:url(../images/bgBaozhang1.jpg) #acacac 30px 10px no-repeat; background-size:58px 58px;}
+.detailList .baozhangList li.list2{ background:url(../images/bgBaozhang2.jpg) 30px 10px no-repeat; background-size:58px 58px;}
+.detailList .baozhangList li.list3{ background:url(../images/bgBaozhang3.jpg) #acacac 30px 10px no-repeat; background-size:58px 58px;}
+.detailList .baozhangList li.list4{ background:url(../images/bgBaozhang4.jpg) 30px 10px no-repeat; background-size:58px 58px;}
+
+.oppsImg{ padding:50px 0 30px; margin:0 15px; border-bottom:1px solid #fff;}
+.oppsImg img{ margin:0 auto; display:block;}
+.oppsBox{ text-align:center; padding-top:15px;}
+.oppsBox p{ font-size:15px; color:#2c2c2c; line-height:40px;}
+.oppsBox a{ width:110px; height:32px; margin:0 auto; display:block; border-radius:3px; background:#f89425; line-height:32px; text-align:center; font-size:15px; color:#fff;}
+.oppsBox a:hover{ text-decoration:none;}
+
+/*询方案*/
+.stepTable{ width:100%; text-align:center; background:#fff;}
+.stepTable th{ height:36px; padding-top:4px;}
+.stepTable th span{ width:18px; height:18px; display:inline-block; border-radius:9px; line-height:18px; color:#fff; font-size:13px; font-weight:normal; vertical-align:middle;}
+.stepTable th.finish{ background:url(../images/bgStepFinish.jpg) 0 4px repeat-x; background-size:1px 36px;}
+.stepTable th.finish span{ background:#84c644;}
+.stepTable th.unfinish{ background:url(../images/bgStepUnfinish.jpg) 0 4px repeat-x; background-size:1px 36px;}
+.stepTable th.unfinish span{ background:#c6c5c5;}
+.stepTable td{ height:24px; padding-bottom:6px; line-height:24px;}
+.stepTable td.finish{ color:#84c644;}
+.stepTable td.unfinish{ color:#c6c5c5;}
+.requireTable{ width:100%; padding:10px 0 20px; background:#d8eefe;}
+.requireTable table{ margin:0 auto;}
+.requireTable table th{ height:30px; text-align:left;}
+.requireTable table th h2{ width:65px; height:30px; line-height:30px; border-bottom:1px solid #3e3e3e; font-size:15px; color:#3e3e3e;}
+.requireTable table td{ padding:6px 0; line-height:20px; color:#3e3e3e; font-size:12px;}
+.resultBox{ padding:15px 0 10px; text-align:center; background:#fff;}
+.resultBox p{ line-height:30px; color:#3e3e3e;}
+.resultBox p img{ display:inline-block; vertical-align:middle; margin-right:5px;}
+.resultBox .backBtn{ width:75px; height:22px; margin:5px auto; border:none; border-radius:3px; background:#0077cb; color:#fff;}
+.resultBox .loading{ width:16px; height:21px; margin:0 auto; background:url(../images/bgResultLoading.jpg) no-repeat; background-size:contain;}
+.resultBox .success{ width:25px; height:25px; margin:0 auto; background:url(../images/bgResult.jpg) no-repeat; background-size:contain;}
+.fanganList{ width:95%; margin:0 auto;}
+.fanganList h3{line-height:30px; color:#3e3e3e; font-size:15px; font-weight:normal;}
+.fanganList dl{ width:100%; margin-bottom:10px;}
+.fanganList dl dt{ width:100%; height:34px; background:#0077cb;}
+.fanganList dl dt span{ float:left; height:34px; padding-left:10px; color:#fff; font-size:14px; line-height:34px;}
+.fanganList dl dt input{ float:right; width:60px; height:22px; margin:6px 10px 0 0; border:1px solid #fff; border-radius:3px; background:#0077cb; font-size:11px; color:#fff; line-height:18px;}
+.fanganList dl.gray dt{ background:#959595;}
+.fanganList dl.gray dt input{ background:#959595;}
+.fanganList dl dd{ display:none;}
+.fanganList dl dd p{ margin:5px 0; font-size:12px; color:#4c4f51; line-height:18px;}
+.fanganList dl dd h4{ width:60px; height:30px; border-bottom:1px solid #4c4f51; line-height:30px; font-size:14px; color:#4c4f51;}
+.fanganList dl dd .prizeTable{ width:100%; margin:5px auto; background:#ededed;}
+.fanganList dl dd .prizeTable td{ padding:9px 0; line-height:20px; text-align:center; color:#4c4f51;}
+.fanganList dl dd .prizeTable td.border{ background:url(../images/bgTableBorder.jpg) right center no-repeat; background-size:1px 57.5px;}
+.fanganList dl dd .otherList{ margin:5px 0;}
+.fanganList dl dd .otherList li{ color:#797b7c; line-height:24px;}
+.fanganList dl dd .otherList li span{ color:#4c4f51;}
+.fanganList dl dd .anliTable{ width:100%;}
+.fanganList dl dd .anliTable td{ font-size:12px; color:#4c4f51; line-height:24px; vertical-align:top;}
+.fanganList dl dd .anliTable td.last{ padding:20px 0 10px;}
+.anliTable td input{ width:100px; height:28px; margin:0 10px; display:inline-block; border:none; border-radius:3px; color:#fff; font-size:12px;}
+.fanganList dl dd .anliTable td input.grayBtn{ background:#bcbdbd;}
+.fanganList dl dd .anliTable td input.blueBtn{ background:#0077cb;}
