@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>1shang-登录</title>
+<link rel="stylesheet" href="css/login/login-v2.css" />
+<link rel="stylesheet" href="css/1shang-global.css" />
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/1shang-ui.js"></script>
+</head>
+
+<body>
+<div class="center clearfix" id="top">
+	<div class="logo"><a target="_self" href="/"><img width="222" height="82" src="images/login/login-1.png"></a></div> 
+</div>
+<div class="bgBox">
+    <div class="loginmain clearfix">
+        <div class="loginMainL"></div>
+        <div class="loginMainR">
+            <div class="loginTab">
+                <span class="on">帐号登录</span>
+                <span>微信登录</span>
+            </div>
+            
+            <dl class="accLogin">
+                <form>
+                <dt class="title">如有账户，请登录</dt>    
+                <dd>
+                	<input type="text" errtype="pop" onblur="if(this.value==''){this.value='手机号用户名';}" onfocus="if(this.value=='手机号用户名'){this.value='';}" value="手机号用户名" class="loginInput" id="account" name="account"> 
+                </dd>
+                <dd><input type="password" placeholder="密码" value="" class="loginInput" id="password" name="password"></dd>
+                <!-- 请不要在此dt中输入任何东西 ，否则$("#hideCode").html()==''会出错 -->
+                <dd id="hideCode">
+                    <input type="text" class="loginInput" style="width:100px;float:left;" id="validate" placeholder="验证码" name="validateCode"><img alt="验证码" src="images/login/getValidateImg.png" id="validateImg">
+                    看不清？<br /><a class="blue" href="javascript:change();">换一张</a>
+                </dd>
+                <dd><input type="button" value="登&nbsp;&nbsp;&nbsp;&nbsp;录" class="subLogin" name="subLogin" onclick="login()"></dd>
+                <dd><input type="checkbox" checked="" value="1" name="remberme">记住用户名<i><a target="_self" href="/losePassword.jsp">忘记密码？</a>|<a target="_self" href="/regist.jsp"><span class="blue">免费注册</span></a></i></dd>
+                </form>
+            </dl>
+            
+            <div class="wechatLogin" style="display:none;">
+                <p>手机扫码，安全登录</p>
+                <img src="images/1shang-wechat.jpg" />
+                <p class="blueSub">使用微信扫面上面二维码</p>
+                <a class="linkHelp" href="javascript:;">
+                    <i>?</i><span>使用帮助</span>
+                </a>
+                <div class="helpBg" style="display:none;"><img src="images/login/help_bg.png" /></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="loginFooter center">Copyright &copy; 2014 1shang.com 版权所有  沪ICP备14043374号-1</div>
+<script>
+$(".subLogin").click(function(){
+	$("#account").showErrorMsg("请输入用户名");
+});
+$("#account").focus(function(){
+	$(this).hideErrorMsg();
+});
+
+$(".loginTab span").click(function(){
+	var $this = $(this),
+		flag = $this.hasClass("on"),
+		index = $this.index();
+	if(!flag)
+	{
+		$(".loginTab span").removeClass("on");
+		$this.addClass("on");
+		if(index == 0)
+		{
+			$(".loginMainR dl").show();
+			$(".wechatLogin").hide();	
+		}
+		else if(index == 1)
+		{
+			$(".loginMainR dl").hide();
+			$(".wechatLogin").show();
+		}
+	}
+});
+$("#account1").showErrorMsg("123");
+$(".linkHelp").hover(function(){$(".helpBg").show();},function(){$(".helpBg").hide();});
+</script>
+</body>
+</html>

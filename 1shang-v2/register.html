@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>1shang-注册</title>
+<link rel="stylesheet" href="css/login/login-v2.css" />
+</head>
+
+<body>
+<div class="center clearfix" id="top">
+	<div class="logo"><a target="_self" href="/"><img width="222" height="82" src="images/login/login-1.png"></a></div> 
+</div>
+<div class="bgBox">
+    <div class="loginmain clearfix">
+        <div class="loginMainL"></div>
+        <div class="loginMainR">
+        <form method="post" action="/user/regist.action" name="form" id="form">
+         <dl>
+            <dt class="title">
+            	<span>没有账号？请注册</span> 
+                <i>已注册？<a target="_self" href="/login.jsp" class="blue">登录</a></i>
+            </dt>
+            <dt><input type="text" onblur="if(this.value==''){this.value='请输入用户名';}" onfocus="if(this.value=='请输入用户名'){this.value='';}" value="请输入用户名" onchange="" class="loginInput" name="phone" id="phone"></dt>
+            <dt><input type="text" onblur="if(this.value==''){this.value='请输入手机号码';}" onfocus="if(this.value=='请输入手机号码'){this.value='';}" value="请输入手机号码" onchange="check(this.value)" class="loginInput" name="phone" id="phone"><span style="color:red" id="selPhone"></span></dt>
+            <dt>
+                <input type="text" value="" style="width:120px;" class="loginInput" name="vcode" id="validate">
+                <input type="button" class="submitInput disabled" value="获取验证码" />
+            </dt>
+            <!-- <dt><input type="text" name="vcode" class="loginInput" style="width:120px;" value="" />&nbsp;&nbsp;&nbsp;&nbsp;<i class="sendCodeButton" onClick="sendMcode()"></i></dt> -->
+            <dt class="error"><span id="codeSendRes"></span></dt>
+            <dt style="margin-top:5px;"><input type="button" value="注&nbsp;&nbsp;&nbsp;&nbsp;册" class="subLogin" name="subLogin" onclick="regist()"></dt>
+            <dt><input type="checkbox" checked="" id="remberme" value="1" name="remberme">我已阅读并接受<a href="javascript:showItem();"><span id="protocol" class="tipsyellow">易赏服务条款</span></a></dt>
+         </dl>
+        </form>
+       </div>
+    </div>
+</div>
+<div class="loginFooter center">Copyright &copy; 2014 1shang.com 版权所有  沪ICP备14043374号-1</div>
+</body>
+</html>

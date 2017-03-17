@@ -1,0 +1,89 @@
+body.gray{ background:#f1f1f3;}
+/*头部*/
+.header{ height:38px; background:#c70827; position:relative; border-bottom:1px solid #922e30; border-top:1px solid #922e30; line-height:38px; text-align:center; color:#fff; font-weight:bold; font-size:16px;}
+.header .leftBtn{ width:39px; height:38px; display:block; position:absolute; left:0; top:0; background:url(../images/btnLeft.png) 0 2px no-repeat; cursor:pointer; background-size:39px 38px;}
+/*登录*/
+.loginTopBox{ height:97px;}
+.loginTopBox .indexLogo{ float:left; width:165px; height:65px; margin:16px 0 0 20px; display:block; background:url(../images/logoIndex.png) no-repeat;}
+.loginTopBox .indexLogin{ float:right; width:87px; height:37px; margin:30px 20px 0 0; display:block; background:url(../images/btnLogin.png) no-repeat;}
+/*center*/
+.center{ width:100%; padding-bottom:10px; min-width:320px; background:#fff;}
+.center.gray{ background:#f1f1f3;}
+.center .bannerBox{ margin:0;}
+.center .bannerBox img{ display:block;}
+.center .cate{ margin:1%; zoom:1; overflow:hidden;}
+.center .cate img{ display:block;}
+.center .cate .w38Btn{ float:left; width:38%;}
+.center .cate .w62Btn{ float:left; width:62%;}
+/*登录*/
+.loginBox{ width:96%; min-height:540px; margin:0 auto; background:#fff; overflow:hidden;}
+.loginBox .loginBanner{ width:80%; margin:10% auto;}
+.loginBox .loginBanner img{ display:block;}
+.loginBox .loginTable{ width:80%; margin:10% auto 0; border-collapse:collapse;}
+.loginBox .loginTable td{ border:1px solid #8e8f8f; height:28px;}
+.loginBox .loginTable td .loginText{ width:96%; height:28px; padding:0 2%; border:none; color:#8e8f8f;}
+.loginBox .checkBox{ width:80%; margin:10% auto 0;}
+.loginBox .checkBox ul{ text-align:center;}
+.loginBox .checkBox li{ display:inline-block; margin:0 10px; color:#8e8f8f;}
+.loginBox .checkBox li input{ margin:0 3px; position:relative; top:2px; border:1px solid #8e8f8f;}
+.loginBox .loginSubmit{ width:80%; margin:10% auto 0; }
+.loginBox .loginSubmit td{ height:48px;}
+.loginBox .loginSubmit td input,.loginBox .loginSubmit td a{ width:100%; height:32px; padding:0; display:block; border-radius:0; border:none; text-align:center; line-height:32px; color:#fff; font-size:18px; font-weight:bolder;}
+.loginBox .loginSubmit td input.loginBtn{ background:#d0111b; cursor:pointer;}
+.loginBox .loginSubmit td a.registerBtn{ background:#b5b5b5;}
+.loginBox .loginSubmit td a.registerBtn:hover{ text-decoration:none;}
+/*注册*/
+.registerBox{ width:96%; min-height:540px; margin:0 auto; background:#fff; overflow:hidden;}
+.registerBox .registerTable{ width:80%; margin:10% auto;}
+.registerBox .registerTable td{ height:50px;}
+.registerBox .registerTable td .w100Text{ width:96%; height:28px; padding:0 2%; border:1px solid #8e8f8f; color:#545454;}
+.registerBox .registerTable td .w100Select{ width:100%; height:30px; border:1px solid #8e8f8f; color:#545454;}
+.registerBox .registerTable td .w46Select{ width:46%; height:30px; border:1px solid #8e8f8f; color:#545454;}
+.registerBox .registerTable td .w46Select.left{ float:left;}
+.registerBox .registerTable td .w46Select.right{ float:right;}
+.registerBox .registerTable td .registerBtn{ width:100%; height:30px; padding:0; border:none; border-radius:5px; line-height:30px; color:#fff; background:#d0111b; -webkit-appearance:none;}
+/*产品介绍*/
+.introBox{ width:96%; padding-bottom:10px; margin:2% auto; background:#f1f1f3; border:1px solid #e4e4e4;}
+.introBox .leftNav{ float:left; width:25%; position:relative; left:-1px; top:-1px;}
+.introBox .leftNav li{ width:100%; height:32px; margin-bottom:8px;}
+.introBox .leftNav li a{ display:block; width:98%; height:32px; border-right:4px solid #a7a7a7; background:#fff; line-height:32px; color:#545454; text-align:center; font-size:14px;}
+.introBox .leftNav li a.on{ background:#d0111b; color:#fff; border-color:#d0111b;}
+.introBox .rightContent{ float:right; width:71%; margin:4% 2% 0 0; overflow:hidden; zoom:1;}
+.introBox .rightContent li{ float:left; width:48%; margin:0 0 2% 2%;}
+.introBox .rightContent li a{ display:block; width:100%; height:100%; position:relative;}
+.introBox .rightContent li a p{ width:100%; height:24px; position:absolute; bottom:0; background:#d0111b; line-height:24px; text-align:center; color:#fff; opacity:0.8;}
+.introBox .rightContent li a img{ display:block;}
+/*产品详情*/
+.detailBox{ width:96%; padding-top:10px; min-height:180px; margin:2% auto 0; background:#fff;}
+.detailBox p{ margin:0 10px; color:#545454;}
+/*抽奖*/
+.lotteryBox{ width:96%; min-height:180px; margin:0 auto; background:#fff; overflow:hidden;}
+.lotteryBox h2{ width:100%; height:48px; line-height:48px; font-size:20px; text-align:center;}
+.lotteryBox .lotteryImg{ width:80%; margin:10% auto 5%;}
+.lotteryBox .lotteryTable{ width:80%; margin:5% auto 10%; color:#545454; text-align:center;}
+.lotteryBox .lotteryTable td{ height:48px;}
+.lotteryBox .lotteryTable .lotteryText{ width:98%; height:28px; border:1px solid #acabab;}
+.lotteryBox .lotteryTable .minWidth{ min-width:105px;}
+.lotteryBox .lotteryTable .lotteryBtn{ width:106px; height:32px; padding:0; border:none; border-radius:4px; background:#d0111b; color:#fff; cursor:pointer; -webkit-appearance:none;}
+.lotteryBox .guaguaka{ width:280px; height:382px; margin:5% auto;}
+#card{ display:block;}
+/*调查问卷*/
+.questionnaireBox{ width:96%; min-height:540px; margin:0 auto; background:#fff; overflow:hidden;}
+.questionnaireBox h3{ width:90%; margin:10px auto; font-size:16px;}
+.questionnaireBox p{ width:90%; margin:10px auto;}
+.questionnaireBox ul{ width:90%; margin:10px auto;}
+.questionnaireBox ul li{ width:100%; height:76px; margin-bottom:25px; line-height:76px; color:#545454; vertical-align:middle;}
+.questionnaireBox ul li img{ vertical-align:middle; margin:0 5px;}
+.questionnaireBox ul li input{ float:right; margin:30px 5px 0 0;}
+.questionnaireBox .qText{ width:90%; margin:10px auto; }
+.questionnaireBox textarea{ width:100%; height:300px; line-height:24px; border:1px solid #8e8f8f;}
+.questionnaireBox .btnBox{ width:90%; margin:30px auto; text-align:center;}
+.questionnaireBox .btnBox .qBtn{ width:106px; height:32px; padding:0; margin:0 10px; border:none; border-radius:4px; background:#d0111b; color:#fff; cursor:pointer; -webkit-appearance:none;}
+.questionnaireBox h2.qTitle{ width:100%; height:48px; line-height:48px; font-size:20px; text-align:center;}
+.questionnaireBox .successBox{ width:80%; margin:0 auto;}
+.questionnaireBox .resultTable{ width:80%; margin:10px auto 30px; border-collapse:collapse;}
+.questionnaireBox .resultTable th,.questionnaireBox .resultTable td{ height:32px; font-weight:bold; text-align:center; border:1px solid #c6c6c8;}
+.questionnaireBox .resultTable th{ background:#d0111b; color:#fff; border:1px solid #d0111b;}
+.questionnaireBox .resultTable th.th1{ border-right:1px solid #fff;}
+.questionnaireBox .resultTable th.th2{ border-left:1px solid #fff;}
+.questionnaireBox .resultTable td{ background:#f1f1f3; color:#545454;}

@@ -1,0 +1,232 @@
+/*layout*/
+.m-t-10{ margin-top:10px;}
+.m-t-20{ margin-top:20px;}
+.m-t-30{ margin-top:30px;}
+.m-t-40{ margin-top:40px;}
+.m-t-50{ margin-top:50px;}
+.m-t-60{ margin-top:60px;}
+.m-t-70{ margin-top:70px;}
+.m-b-10{ margin-bottom:10px;}
+.m-b-20{ margin-bottom:20px;}
+.m-b-30{ margin-bottom:30px;}
+.m-b-40{ margin-bottom:40px;}
+.m-b-50{ margin-bottom:50px;}
+
+.p-0-15{ padding:0 15px;}
+
+.f-s-12{ font-size:12px;}
+.f-s-14{ font-size:14px;}
+.f-s-16{ font-size:16px;}
+.f-s-18{ font-size:18px;}
+.f-s-24{ font-size:24px;}
+
+.yellow{ color:#ff6d00;}
+.blue{ color:#0484cd;}
+.black{ color:#000;}
+
+.center{ width:1200px; margin:0 auto; clear:both; display:table;}
+
+.w120BlueBtn{ width:120px; height:36px; padding:0; border:none; border-radius:5px; background:#0484cd; color:#fff; font-size:18px;}
+.w180BlueBtn{ width:180px; height:50px; padding:0; border:none; border-radius:8px; background:#0484cd; color:#fff; font-size:18px;}
+.w255BlueBtn{ width:255px; height:50px; padding:0; border:none; border-radius:8px; background:#0484cd; color:#fff; font-size:18px;}
+.w400BlueBtn{ width:400px; height:50px; padding:0; border:none; border-radius:8px; background:#0484cd; color:#fff; font-size:18px; cursor:pointer; -webkit-appearance:none;}
+
+.w80OrgBtn{ width:80px; height:36px; padding:0; border:none; border-radius:2px; background:#ff6d00; color:#fff; font-size:14px; text-align:center; cursor:pointer;}
+.w120OrgBtn{ width:120px; height:36px; padding:0; border:none; border-radius:5px; background:#ff6d00; color:#fff; font-size:18px; text-align:center; cursor:pointer;}
+.w180OrgBtn{ width:180px; height:50px; padding:0; border:none; border-radius:8px; background:#ff6d00; color:#fff; font-size:18px; text-align:center; cursor:pointer;}
+.w80h24OrgBtn{ width:80px; height:24px; padding:0; border:none; border-radius:2px; background:#ff6d00; color:#fff; font-size:14px; text-align:center; cursor:pointer;}
+.w120h24OrgBtn{ width:120px; height:24px; padding:0; border:none; border-radius:3px; background:#ff6d00; color:#fff; font-size:14px; text-align:center; text-align:center; cursor:pointer;}
+.w180h24OrgBtn{ width:180px; height:24px; padding:0; border:none; border-radius:4px; background:#ff6d00; color:#fff; font-size:14px; text-align:center; text-align:center; cursor:pointer;}
+
+.w30Text{ width:30px; height:22px; padding:0; border:1px solid #dad9d9;}
+.w60Text{ width:60px; height:22px; line-height:22px; text-align:center; padding:0; border:1px solid #dad9d9;}
+.w255Text{ width:243px; height:38px; padding:0 5px; border:1px solid #dad9d9; border-radius:8px; line-height:38px; font-size:18px;}
+.w400Text{ width:388px; height:38px; padding:0 5px; border:1px solid #dad9d9; border-radius:8px; line-height:38px; font-size:18px;}
+
+.opacityBox:hover{ filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: 0.5;}
+/*header*/
+.top{ height:36px; background:#f9f9f9; line-height:36px; font-size:12px;}
+.top .topLeft{ float:left; height:36px; text-align:left;}
+.top .topLeft a{ display:inline-block; margin-left:20px;}
+.top .topLeft a.msg{ padding-left:15px; background:url(../images/1shang-bg.png)0 -820px no-repeat;}
+.top .topLeft a.msg span{ color:#ff6d00;}
+.top .topRight{ float:right; height:36px; text-align:right; position:relative; z-index:50;}
+.top .topRight a{ display:inline-block; margin-right:20px;}
+.top .topRight a.carLink{ padding-left:20px; position:relative; z-index:2; background:url(../images/1shang-bg.png) 2px 11px no-repeat;}
+.top .topRight a.carLink em{ width:17px; height:17px; display:block; position:absolute; top:0; right:-16px; background:url(../images/1shang-bg.png) 1px -23px no-repeat; line-height:17px; text-align:center; font-size:11px; color:#fff;}
+.top .topRight .carBoxNew{ width:340px; border:1px solid #dad9d9; background:#fff; position:absolute; top:36px; right:125px; display:none;}
+.top .topRight .carBoxNew span.arrow{ width:16px; height:11px; display:block; background:url(../images/1shang-bg.png) 0 -736px no-repeat; position:absolute; top:-11px; right:35px;}
+.top .topRight .carBoxNew table{ width:100%; text-align:left;}
+.top .topRight .carBoxNew table th{ height:36px; font-weight:normal; font-size:14px;}
+.top .topRight .carBoxNew table td{ height:48px; border-bottom:1px dashed #dad9d9; font-size:14px;}
+.top .topRight .carBoxNew table td em{ width:18px; height:17px; display:block; background:url(../images/1shang-bg.png) 1px -24px no-repeat; line-height:17px; text-align:center; font-size:11px; color:#fff; cursor:pointer;}
+.top .topRight .carBoxNew .carBtn{ width:130px; height:32px; padding:0; margin:15px 0 15px 195px; display:block; border:none; background:#ff6d00; border-radius:16px; color:#fff; font-size:16px; text-align:center; line-height:32px;}
+.top .topRight .carBoxNew .carBtn:hover{ text-decoration:none;}
+.top .topRight .siteNavBox{ width:520px; padding:20px 30px; border:1px solid #dad9d9; background:#fff; position:absolute; top:36px; right:0; display:none;}
+.top .topRight .siteNavBox span.arrow{ width:16px; height:11px; display:block; background:url(../images/1shang-bg.png) 0 -736px no-repeat; position:absolute; top:-11px; right:35px;}
+.top .topRight .siteNavBox .leftInnerNav{ width:220px; height:70px; padding-left:80px; float:left; text-align:left;}
+.top .topRight .siteNavBox .leftInnerNav.nav01{ background:url(../images/1shang-bg.png) 0 -872px no-repeat;}
+.top .topRight .siteNavBox .leftInnerNav.nav03{ background:url(../images/1shang-bg.png) 0 -1048px no-repeat;}
+.top .topRight .siteNavBox .rightInnerNav{ width:140px; height:70px; padding-left:80px; float:left; text-align:left;}
+.top .topRight .siteNavBox .rightInnerNav.nav02{ background:url(../images/1shang-bg.png) 0 -960px no-repeat;}
+.top .topRight .siteNavBox .rightInnerNav.nav04{ background:url(../images/1shang-bg.png) 0 -1136px no-repeat;}
+.top .topRight .siteNavBox p a{ margin:0; line-height:24px; color:#ff6d00; font-size:14px;}
+.top .topRight .siteNavBox .navList a{ width:70px; height:22px; display:block; float:left; line-height:22px; font-size:12px; margin:0;}
+.top .topRight .wechatBox{ width:215px; height:215px; border:1px solid #dad9d9; background:#fff; position:absolute; top:36px; right:300px; display:none;}
+.top .topRight .wechatBox span.arrow{ width:16px; height:11px; display:block; background:url(../images/1shang-bg.png) 0 -736px no-repeat; position:absolute; top:-11px; right:35px;}
+/*header*/
+.header{ height:126px;}
+.header .topLogo{ width:247px; float:left; margin:12px 0 0 0; color:#999; font-size:12px; text-align:center;}
+.header .headerSearchBox{ float:left; margin:36px 0 0 105px;}
+.header .headerSearchBox .hsGroup{ width:471px; height:35px;}
+.header .headerSearchBox .hsGroup .hsLeft{ width:16px; height:35px; float:left; background:url(../images/1shang-bg.png) -91px 0 no-repeat;}
+.header .headerSearchBox .hsGroup .hsMid{ width:14px; height:35px; float:left; background:url(../images/1shang-bg.png) -107px 0 no-repeat;}
+.header .headerSearchBox .hsGroup .hsRight{ width:16px; height:35px; float:left; background:url(../images/1shang-bg.png) -121px 0 no-repeat;}
+.header .headerSearchBox .hsGroup .hsText{ width:389px; height:35px; padding:0; margin-left:-1px; float:left; border:none; background:url(../images/bgSearchText.jpg) repeat-x; font-size:14px; line-height:35px;}
+.header .headerSearchBox .hsGroup input.hsBtn{ width:36px; height:35px; padding:0; margin-left:-1px; float:left; border:none; color:#fff; background:#0484cd; font-size:14px; line-height:35px; text-align:center; cursor:pointer; -webkit-appearance:none;}
+.header .hotSearchList{ height:20px; margin:6px 0 0 10px;}
+.header .hotSearchList li{ float:left; font-size:12px; line-height:20px; color:#929292;}
+.header .hotSearchList li.p-0-15{ color:#e4e4e4;}
+.header .hotSearchList li a{ color:#929292;}
+.header .hotSearchList li a.yellow{ color:#ff6d00;}
+.header .hotlineBox{ width:218px; height:65px; margin:24px 20px 0 0; float:right; border-radius:31px; background:#f9f9f9;}
+@media \0screen\,screen\9 {
+	.header .hotlineBox{ width:218px; height:65px; margin:24px 20px 0 0; float:right; background:url(../images/bgTopPhone.jpg) no-repeat;}
+}
+.header .hotlineBox .left{ width:36px; height:40px; background:url(../images/bgHotLine.png) right no-repeat; margin:13px 0 11px 25px; float:left;}
+.header .hotlineBox .right{ width:140px; height:40px; margin:13px 11px 11px 0; float:right;}
+.header .hotlineBox .right p{ line-height:20px; font-size:12px; font-family:Arial;}
+.header .hotlineBox .right .yellow{ font-size:18px; font-weight:600;}
+
+/*navigation*/
+.navigation{ height:40px; background:#0484cd;}
+.navigation .navLeft{ width:242px; height:40px; float:left; text-align:center; font-size:18px; color:#fff; line-height:40px;  background:url(../images/1shang-bg.png) #0070b0 170px -41px no-repeat; cursor:pointer;}
+.navigation .navLeft.hover{ background-position:170px -83px;}
+.navigation .navContent{ width:705px; height:40px; float:left;}
+.navigation .navContent ul{ height:40px; margin-left:40px;}
+.navigation .navContent ul li{ height:40px; padding:0 15px; float:left; line-height:40px; color:#fff;}
+.navigation .navContent ul li a{ color:#fff;}
+.navigation .navContent ul li.on a{ color:#fff668;}
+.navigation .center{ position:relative; z-index:1;}
+.navigation .center .conditionHiddenBox{ height:393px; padding-top:20px; background:#fff; position:absolute; top:40px; left:0; display:none;}
+.navigation .center .conditionHiddenBox .shopType{ background:#fff;}
+
+/*footer*/
+.footerBox{
+	margin-top:40px;
+	padding:44px 0;
+	border-top:2px solid #ff6d00;
+	background:#fff;
+}
+.footerBox .footerInnerBox{ width:1200px; margin:0 auto;}
+.footerBox .footerInnerBox ul{ display:block; overflow:hidden; zoom:1;}
+.footerBox .footerInnerBox li{ float:left; width:215px; margin:0 45px 0 40px; height:52px;}
+.footerBox .footerInnerBox li.last{ margin-right:0;}
+.footerBox .footerInnerBox li .footerInnerLeft{ float:left; _display:inline; width:52px; height:52px;}
+.footerBox .footerInnerBox li .footerInnerRight{ float:right; _display:inline; width:150px;}
+.footerBox .footerInnerBox li .footerInnerRight h3{ line-height:26px; font-weight:normal; color:#000; font-size:14px;}
+.footerBox .footerInnerBox li .footerInnerRight p{ line-height:26px;  color:#aaa; font-size:12px;}
+.footerLink{ border-top:1px solid #dad9d9; text-align:center; line-height:48px;}
+.footerLink .footerLinkInner{ width:1200px; margin:0 auto; position:relative;} 
+.footerLink a{ padding:0 40px; display:inline-block; font-size:12px; color:#000;}
+.footerLink .wechatBox{ width:215px; height:215px; border:1px solid #dad9d9; background:#fff; position:absolute; top:-215px; right:150px; display:none;}
+.footerLink .wechatBox span.arrow{ width:16px; height:11px; display:block; background:url(../images/1shang-bg.png) -16px -736px no-repeat; position:absolute; bottom:-11px; right:35px;}
+.copyright{ margin:50px 0 20px; line-height:20px; text-align:center; color:#000; font-size:12px;}
+
+/*分页*/
+.pageListBox{ width:700px; height:30px; margin:20px auto;}
+.pageListBox ul{ text-align:center; color:#606060;}
+.pageListBox ul li{ float:left; display:block; line-height:30px; font-size:14px; margin:0 3px;}
+.pageListBox ul li.pageBtn{ float:left; display:block; width:70px; line-height:28px; font-size:14px; margin:0 5px;border:1px solid #d9dadc;}
+.pageListBox ul li span{ color:#ff6d00;}
+.pageListBox ul li a{ color:#606060;}
+.pageListBox ul li.pageBtn:hover{ border:1px solid #ff6d00;}
+.pageListBox ul li.pageBtn:hover a{ color:#ff6d00;}
+.pageListBox ul li .pageJumpText{ width:27px; height:18px; line-height:18px; color:#606060; border:1px solid #606060; padding:0 0 0 3px; margin:0 3px;}
+.pageListBox ul li .pageJumpBtn{ width:36px; height:30px; line-height:25px; color:#FFFFFF; border:1px solid #0484CD; padding:0; background:#0484CD; font-weigth:bold; cursor:pointer;}
+
+/*气泡提示*/
+.popParent{ position:relative;}
+.popParent .popErrBox{ height:20px; padding:0 10px; line-height:20px; color:#e75c00; background:#f5c3bf; position:absolute; top:-20px; left:0; z-index:997;}
+.popParent .popErrBox .errContent{ white-space:nowrap;}
+.popParent .popErrBox em{ width:0; height:0; border-top:#f5c3bf 8px solid; border-left:transparent 8px solid; border-right:transparent 8px solid; border-bottom:transparent 8px solid; position:absolute; bottom:-14px; left:20px;}
+
+/*title*/
+.titleParent{ width:28px; height:28px; display:inline-block; vertical-align:middle; background:url(../images/bgTitleBtn.png) 0 0 no-repeat; position:relative;}
+.titleParent .popTitle{ height:20px; padding:8px 10px; line-height:20px; color:#0484cd; background:#fff; border:1px solid #0484cd; position:absolute; top:-48px; right:-14px; z-index:997; display:none;}
+.titleParent .popTitle .errContent{ white-space:nowrap;}
+.titleParent .popTitle em{ width:13px; height:10px; background:url(../images/bgTitleArrow.jpg) no-repeat; position:absolute; bottom:-10px; right:20px;}
+.titleParent:hover{ background:url(../images/bgTitleBtn.png) -28px 0 no-repeat;}
+.titleParent:hover .popTitle{ display:block;}
+
+/*右侧固定*/
+.rightFixed{ width:52px; height:52px; position:fixed; right:0; top:215px; z-index:998;}
+.rightFixed .tishiParent{ width:52px; height:52px; background:url(../images/bgFixRight.jpg) top center no-repeat; text-align:center; }
+.rightFixed .tishiParent .tishiIco{ width:28px; height:28px; margin:10px auto; display:inline-block; background:url(../images/bgTitleBtn.png) -28px 0 no-repeat;}
+.rightFixed .tishiParent .popTitle{ height:20px; padding:8px 10px; line-height:20px; color:#878686; background:#fff; border:1px solid #e5e3e3; position:absolute; top:-50px; right:-4px; z-index:997; display:none;}
+.rightFixed .tishiParent .popTitle .errContent{ white-space:nowrap;}
+.rightFixed .tishiParent .popTitle em{ width:13px; height:10px; background:url(../images/bgTitleArrowGRay.jpg) no-repeat; position:absolute; bottom:-10px; right:20px;}
+.rightFixed .tishiParent .tishiText{ display:none; color:#fff; line-height:48px; font-weight:bold; font-size:14px;}
+.rightFixed .tishiParent:hover{ background:#68ccca;}
+.rightFixed .tishiParent:hover .tishiIco{ display:none;}
+.rightFixed .tishiParent:hover .tishiText{ display:block;}
+.rightFixed .tishiParent:hover .popTitle{ display:block;}
+.rightFixed .feedbackParent{ width:52px; height:52px; background:#fff; text-align:center; background:url(../images/bgFixRight.jpg) 0 -52px no-repeat;  cursor:pointer;}
+.rightFixed .feedbackParent .fbText{ padding:4px 0; text-align:center; color:#fff; line-height:20px; font-weight:bold; font-size:14px; display:none;}
+.rightFixed .feedbackParent.on{ background:#ff6d00; color:#fff;}
+.rightFixed .feedbackParent.on .fbText{ display:block;}
+.rightFixed .feedbackBox{ display:none;}
+.rightFixed .feedbackBox.on{ width:260px; background:#f9f9f9; border:1px solid #e5e3e3; position:absolute; top:0; left:-272px; display:block;}
+.rightFixed .feedbackBox.on .closeBtn{ color:#0484cd; position:absolute; right:5px; top:5px; cursor:pointer;}
+.rightFixed .feedbackBox.on em.org{ width:0px; height:0px; border-left:9px solid #ff6d00; border-top:transparent 8px solid; border-right:transparent 8px solid; border-bottom:transparent 8px solid; position:absolute; right:-17px; top:13px;}
+.rightFixed .feedbackBox.on h2{ padding-left:10px; margin:0; text-align:center; line-height:40px; font-size:18px; font-weight:bold; color:#fff; background:#ff6d00;}
+.rightFixed .feedbackBox.on li{ min-height:34px; line-height:34px;}
+.rightFixed .feedbackBox.on p{ padding-left:10px; text-align:left; line-height:20px; font-size:14px; color:#0484cd;}
+.rightFixed .feedbackBox.on p.gray{ color:#cdcdcd; font-size:12px;}
+.rightFixed .feedbackBox.on textarea{ width:230px; height:170px; padding:0 4px; display:block; margin:10px auto 0; border:none; background:#fff; line-height:20px; font-size:12px;}
+.rightFixed .feedbackBox.on .feedBackInput{ width:230px; height:32px; padding:0 4px; border:1px solid #0484cd;}
+.rightFixed .feedbackBox.on .feedBackSubmit{ width:240px; height:34px; padding:0; display:block; margin:0 auto; border:none; background:#ff6d00; font-size:14px; color:#fff; cursor:pointer;}
+.rightFixed .feedbackBox.on .success{ padding:40px 0 30px;}
+.rightFixed .feedbackBox.on .success img{ display:block; margin:0 auto;}
+.rightFixed .feedbackBox.on .success p{ margin:10px; line-height:24px; font-size:14px; color:#ff6d00; text-align:center;}
+.rightWechat{ width:100px; height:120px; position:fixed; right:0; top:420px; z-index:997;}
+.rightWechat img{ display:block;}
+.rightToTop{ width:52px; height:50px; position:fixed; right:0; top:555px; z-index:997;}
+.rightToTop img{ display:block; cursor:pointer;}
+
+/*登录注册弹层*/
+.loginSignUpLayer{ width:468px; height:440px; padding:15px 0 0; background:#fbfbfb;}
+.loginSignUpLayer ul{ width:376px; margin:20px auto 0;}
+.loginSignUpLayer ul li{ margin-bottom:20px; text-align:center; font-size:16px; color:#a6a6a6;}
+.loginSignUpLayer ul li.tit{ text-align:left; position:relative; line-height:24px;}
+.loginSignUpLayer ul li.tit span{ position:absolute; right:0; font-size:16px;}
+.loginSignUpLayer ul li.tit span em{ color:#0484cd; cursor:pointer;}
+.loginSignUpLayer ul li .mobile{ width:335px; height:46px; padding:0 0 0 41px; margin:0 auto; border:none; border-radius:4px; background:url(../images/bgLayerDetailInput.jpg) 10px 0 #fff no-repeat; color:#a6a6a6; font-size:16px;}
+.loginSignUpLayer ul li .password{ width:335px; height:46px; padding:0 0 0 41px; margin:0 auto; border:none; border-radius:4px; background:url(../images/bgLayerDetailPassword.jpg) 10px 0 #fff no-repeat; color:#a6a6a6; font-size:16px;}
+.loginSignUpLayer ul li .pin{ width:227px; height:46px; padding:0 0 0 41px; border:none; border-radius:4px; background:url(../images/bgLayerDetailPin.jpg) 10px 0 #fff no-repeat; color:#a6a6a6; font-size:16px;}
+.loginSignUpLayer ul li .getPin{ width:108px; height:46px; padding:0; border:none; border-radius:0 4px 4px 0; background:#5cafde; color:#fff; font-size:16px; cursor:pointer;}
+.loginSignUpLayer ul li .getPin.gray{ background:#999; font-size:13px;}
+.loginSignUpLayer ul li .submitBtn{ width:376px; height:46px; padding:0; margin:0 auto; border:none; border-radius:4px; background:#0484cd; color:#fff; font-size:16px; cursor:pointer;}
+.loginSignUpLayer ul li.agreement{ margin-top:-12px; text-align:left; font-size:12px;}
+.loginSignUpLayer ul li.agreement a{ color:#ff6d00;}
+.loginSignUpLayer .loginTab{ width:376px; height:48px; border:1px solid #c0c0c0; margin:20px auto 0;}
+.loginSignUpLayer .loginTab span{ width:187px; height:48px; display:block; float:left; border-right:1px solid #fff; line-height:48px; text-align:center; font-size:16px; cursor:pointer;}
+.loginSignUpLayer .loginTab span.first{ border-right:1px solid #c0c0c0;}
+.loginSignUpLayer .loginTab span.on{ background:#e6e6e6;}
+.loginSignUpLayer .loginBox{ width:376px; height:347px; border:1px solid #c0c0c0; border-top:none; margin:0px auto; overflow:hidden;}
+.loginSignUpLayer .wechatLogin{ position:relative;}
+.loginSignUpLayer .wechatLogin p{ font-size:16px; text-align:center; line-height:40px; margin:20px auto 0;}
+.loginSignUpLayer .wechatLogin img{ display:block; margin:0px auto; width:160px; height:160px; border:4px solid #0484cd; border-radius:4px;}
+.loginSignUpLayer .wechatLogin .blueSub{ width:170px; height:24px; margin:20px auto 0; background:#0484cd; line-height:24px; border-radius:4px; color:#fff; font-size:12px; text-align:center;}
+.loginSignUpLayer .wechatLogin .linkHelp{ width:100px; height:30px; display:block; margin:5px auto;}
+.loginSignUpLayer .wechatLogin .linkHelp i{ width:20px; height:20px; margin:5px 8px 5px 12px; display:block; float:left; border-radius:10px; line-height:20px; background:#959595; color:#fff; text-align:center; font-style:normal;}
+.loginSignUpLayer .wechatLogin .linkHelp span{ float:left; line-height:30px;}
+.loginSignUpLayer .wechatLogin .helpBg{ position:absolute; width:168px; height:168px; left:105px; top:60px;}
+.loginSignUpLayer .accLogin ul{ width:326px;}
+.loginSignUpLayer .accLogin ul li{ overflow:hidden; zoom:1; margin-bottom:15px;}
+.loginSignUpLayer .accLogin ul li .mobile,.loginSignUpLayer .accLogin ul li .password{ width:285px;}
+.loginSignUpLayer .accLogin ul li .pin{ width:180px; float:left;}
+.loginSignUpLayer .accLogin ul li img{ width:100px; height:36px; margin:8px 0 0 2px; float:left; display:block; vertical-align:middle; cursor:pointer;}
+.loginSignUpLayer .accLogin ul li .submitBtn{ width:326px;}
+.loginSignUpLayer .accLogin ul li .left{ float:left; font-size:12px;}
+.loginSignUpLayer .accLogin ul li i{float:right; font-style:normal; font-size:12px;}

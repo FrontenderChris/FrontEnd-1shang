@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>1shang-支付</title>
+<link rel="stylesheet" href="css/1shang-reset.css" />
+<link rel="stylesheet" href="css/1shang-global.css" />
+<link rel="stylesheet" href="css/style-v2.css" />
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/1shang-ui.js"></script>
+</head>
+<body>
+<!---header start-->
+<div class="top">
+	<div class="center">
+    	<div class="topLeft">
+        	<a href="#" class="yellow">登录</a>
+            <a href="#">注册</a>
+            <a href="#">我要拿奖</a>
+        </div>
+        <div class="topRight">
+        	<a href="#">微信服务号</a>
+            <a href="#">我的易赏</a>
+            <a class="carLink" href="#">购物车<em>1</em></a>
+            <a href="#">帮助中心</a>
+            <a href="#">网站导航</a>
+        	<div class="carBoxNew">
+            	<span class="arrow"></span>
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                    	<th width="15"></th>
+                        <th width="160">奖品</th>
+                        <th width="45">数量</th>
+                        <th width="80">面额</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr>
+                    	<td></td>
+                        <td><a href="#">KTV欢唱包(黄金场)</a></td>
+                        <td>20</td>
+                        <td class="yellow">￥100.00</td>
+                        <td><em>X</em></td>
+                    </tr>
+                    <tr>
+                    	<td></td>
+                        <td><a href="#">KTV欢唱包(黄金场)</a></td>
+                        <td>20</td>
+                        <td class="yellow">￥100.00</td>
+                        <td><em>X</em></td>
+                    </tr>
+                    <tr>
+                    	<td></td>
+                        <td><a href="#">KTV欢唱包(黄金场)</a></td>
+                        <td>20</td>
+                        <td class="yellow">￥100.00</td>
+                        <td><em>X</em></td>
+                    </tr>
+                    <tr>
+                    	<td></td>
+                        <td><a href="#">KTV欢唱包(黄金场)</a></td>
+                        <td>20</td>
+                        <td class="yellow">￥100.00</td>
+                        <td><em>X</em></td>
+                    </tr>
+                </table>
+                <a href="#" class="carBtn">去购物车结算</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="center header">
+	<div class="topLogo">
+    	<a href="#"><img src="images/logo.png" width="247" height="70" /></a>
+        中国最大的奖励解决方案平台
+    </div>
+    <div class="headerSearchBox">
+        <div class="hsGroup">
+            <div class="hsLeft"></div>
+            <input type="text" class="hsText" value="" />
+            <div class="hsMid"></div>
+            <input type="button" class="hsBtn" value="搜索" />
+            <div class="hsRight"></div>
+        </div>
+        <ul class="hotSearchList">
+        	<li><a href="#">5元话费</a></li>
+            <li class="p-0-15">|</li>
+            <li><a href="#">10元流量包</a></li>
+            <li class="p-0-15">|</li>
+            <li><a class="yellow" href="#">双人2D电影票</a></li>
+            <li class="p-0-15">|</li>
+            <li><a href="#">快滴3元打车券</a></li>
+        </ul>        
+     </div>
+     <div class="hotlineBox">
+        <div class="left">客服<br />热线</div>
+        <div class="right">
+            <p class="yellow">400-770-9160</p>
+            <p>工作日：9:00-18:00</p>
+        </div>
+    </div>
+</div>
+<!---header end-->
+
+<!--支付-->
+<div class="paymentBox">
+	<h2>易赏支付</h2>
+    <div class="paymentContent">
+    	<p class="paymentListTitle">订单奖品信息</p>
+        <table cellpadding="0" cellspacing="0" class="paymentList">
+        	<tr>
+            	<th width="35" class="first"></th>
+            	<th width="120">奖品编码</th>
+                <th width="65">奖品名称</th>
+                <th width="200"></th>
+                <th width="120">类型</th>
+                <th width="125">已订购/总数</th>
+                <th width="135" class="popParent">数量<div class="popChild">您可以修改您的奖品订购数量，进行多次结算</div></th>
+                <th width="80">单价</th>
+                <th class="aRight" align="right">金额小计</th>
+                <th width="20" class="last"></th>
+            </tr>
+            <tr>
+            	<td></td>
+            	<td>2460001</td>
+                <td><a href="#"><img src="images/imgGift.jpg" width="60" height="60" /></a></td>
+                <td><a href="#">KTV欢唱礼包（黄金场）</a></td>
+                <td>电影票</td>
+                <td>0/10</td>
+                <td>
+                	<div class="quantityBox">
+                    	<span class="">-</span>
+                        <input type="text" class="quantityInput" />
+                        <span>+</span>
+                    </div>
+                </td>
+                <td>￥54.00</td>
+                <td align="right" class="yellow">
+                	￥540.00
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+            	<td></td>
+            	<td>2460001</td>
+                <td><a href="#"><img src="images/imgGift.jpg" width="60" height="60" /></a></td>
+                <td><a href="#">KTV欢唱礼包（黄金场）</a></td>
+                <td>电影票</td>
+                <td>0/10</td>
+                <td>
+                	<div class="quantityBox">
+                    	<span class="">-</span>
+                        <input type="text" class="quantityInput" />
+                        <span>+</span>
+                    </div>
+                </td>
+                <td>￥54.00</td>
+                <td align="right" class="yellow">
+                	￥540.00
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+            	<td></td>
+            	<td>2460001</td>
+                <td><a href="#"><img src="images/imgGift.jpg" width="60" height="60" /></a></td>
+                <td><a href="#">KTV欢唱礼包（黄金场）</a></td>
+                <td>电影票</td>
+                <td>0/10</td>
+                <td>
+                	<div class="quantityBox">
+                    	<span class="">-</span>
+                        <input type="text" class="quantityInput" />
+                        <span>+</span>
+                    </div>
+                </td>
+                <td>￥54.00</td>
+                <td align="right" class="yellow">
+                	￥540.00
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+            	<td></td>
+            	<td>2460001</td>
+                <td><a href="#"><img src="images/imgGift.jpg" width="60" height="60" /></a></td>
+                <td><a href="#">KTV欢唱礼包（黄金场）</a></td>
+                <td>电影票</td>
+                <td>0/10</td>
+                <td>
+                	<div class="quantityBox">
+                    	<span class="">-</span>
+                        <input type="text" class="quantityInput" />
+                        <span>+</span>
+                    </div>
+                </td>
+                <td>￥54.00</td>
+                <td align="right" class="yellow">
+                	￥540.00
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+            	<td></td>
+            	<td>2460001</td>
+                <td><a href="#"><img src="images/imgGift.jpg" width="60" height="60" /></a></td>
+                <td><a href="#">KTV欢唱礼包（黄金场）</a></td>
+                <td>电影票</td>
+                <td>0/10</td>
+                <td>
+                	<div class="quantityBox">
+                    	<span class="disabled">-</span>
+                        <input type="text" class="quantityInput" disabled="disabled" value="1" />
+                        <span class="disabled">+</span>
+                    </div>
+                </td>
+                <td>￥54.00</td>
+                <td align="right" class="yellow">
+                	￥540.00
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        <p class="listTotal">订单金额：<span class="yellow">￥540.00</span></p>
+        <dl class="discountInfo">
+        	<dt>
+            	<span class="left">优惠信息：</span>
+                <span class="right">优惠金额：<b class="yellow">￥0.00</b></span>
+            </dt>
+            <dd class="noDiscount">
+            	您目前没有优惠折扣信息
+            </dd>
+        </dl>
+        <div class="cangpeiInfo">
+        	<ul>
+            	<li class="on">
+                	<p>XXXXXX产品发件信息</p>
+                    <p>发件人：美标</p>
+                    <p>联系电话：4008008000</p>
+                </li>
+                <li>
+                	<p>XXXXXX产品发件信息</p>
+                    <p>发件人：美标</p>
+                    <p>联系电话：4008008000</p>
+                </li>
+                <li>
+                	<p>XXXXXX产品发件信息</p>
+                    <p>发件人：美标</p>
+                    <p>联系电话：4008008000</p>
+                </li>
+                <li class="more">
+                	<a href="#">更多</a>
+                    <p class="bottom"><span class="addBtn">+</span>增加一个仓配包</p>
+                </li>
+            </ul>
+        </div>
+        <p class="totalPrice">
+        	实付金额：<span class="yellow">￥450.00</span>
+        </p>
+        <div class="paymentType">
+        	<span>支付方式：</span>
+            <span>开启<a href="#">委托支付</a></span>
+        </div>
+        <div class="paymentSelect">
+        	<ul>
+            	<li>
+                	<input type="radio" name="aa" />
+                    <span>使用余额（账户余额<b class="yellow">￥4560.00</b>&nbsp;<a href="#">充值</a>&nbsp;）</span>&nbsp;&nbsp;
+                    <span>支付后余额：<b class="yellow">￥2400.00</b></span>                    
+                </li>
+                <!--<li>
+                	<input type="radio" name="aa" />
+                    <img src="images/imgAlipay.jpg" />
+                </li>-->
+            </ul>
+        </div>
+        <div class="payPasswordBox">
+        	支付密码：<input type="password" class="w120Text" />
+            <a href="#">忘记密码？</a>
+        </div>
+        <input type="submit" value="确认支付" class="paymentSubmit" />
+    </div>
+</div>
+
+<!--footer start-->
+<div class="footerBox">
+	<div class="footerInnerBox">
+    	<ul>
+        	<li>
+            	<div class="footerInnerLeft"><img src="images/imgNewFooter01.jpg"></div>
+            	<div class="footerInnerRight">
+                	<h3>快速响应您的需求</h3>
+                    <p>提供2-3个奖品组合方案</p>
+                </div>
+            </li>
+            <li>
+            	<div class="footerInnerLeft"><img src="images/imgNewFooter02.jpg"></div>
+            	<div class="footerInnerRight">
+                	<h3>聚合上万家企业采集</h3>
+                    <p>采购价格平均低于市场价值30%</p>
+                </div>
+            </li>
+            <li>
+            	<div class="footerInnerLeft"><img src="images/imgNewFooter03.jpg"></div>
+            	<div class="footerInnerRight">
+                	<h3>免费奖品代发服务</h3>
+                    <p>随时随地掌控发奖情况</p>
+                </div>
+            </li>
+            <li class="last">
+            	<div class="footerInnerLeft"><img src="images/imgNewFooter04.jpg"></div>
+            	<div class="footerInnerRight">
+                	<h3>100%正品行货保证</h3>
+                    <p>平台交易保障，优先赔付</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="footerLink">
+	<a href="#">关于我们</a>
+    <a href="#">联系我们</a>
+    <a href="#">常见问题</a>
+    <a href="#">免责条款</a>
+    <a href="#">下载中心</a>
+    <a href="#">供应商入口</a>
+    <a href="#">微信公众号</a>
+</div>
+<p class="copyright">Copyright© 2015 1shang.com 版权所有 沪ICP备14043374号-1</p>
+</body>
+</html>

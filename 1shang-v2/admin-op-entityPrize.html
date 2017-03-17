@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>admin-op-实物奖品添加</title>
+<link rel="stylesheet" href="css/1shang-reset.css" />
+<link rel="stylesheet" href="css/styleSC.css" />
+</head>
+
+<body class="grayBg">
+<!--top start-->
+<div class="top">
+	<div class="center">
+		<a href="#" class="topLogo"><img src="images/logo.png" height="50"></a>
+		<div class="topTitle">供应商管理中心</div>	
+		<div class="rightLinks">
+			<span>用户名：王大锤科技公司</span>
+			<a href="#">账号设置</a>
+			<a href="#">消息中心</a>
+			<a href="#">退出</a>
+		</div>
+	</div>
+	<div class="center">
+		<div class="topNavBox">
+			<ul>
+				<li><a href="#" class="on">奖品管理</a></li>
+				<li><a href="#">订单管理</a></li>
+				<li><a href="#">退货管理</a></li>
+				<li><a href="#">账户中心</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--top end-->
+
+<!--content start-->
+<div class="center m-t-50">
+	<div class="mainLeft">
+		<div class="userInfo">
+			<div class="userAvatarBox"><img src="images/touxiang.png" width="48" height="48" /></div>
+			<div class="userNameBox">
+				<p>您好!</p>
+				<p class="fs-12">王大锤科技公司</p>
+			</div>
+			<div class="userEditBox"><a href="#" class="userEditBtn"><img src="images/imgUserEdit.png" width="11" height="11" /></a></div>
+		</div>
+		<div class="leftNav">
+			<ul class="navList">
+				<li><a href="#">商品管理</a></li>
+                <li><a href="#">商城管理</a></li>
+				<li class="on"><a href="#">实物奖品入库管理</a></li>
+			</ul>
+		</div>
+	</div>
+    <div class="mainRight">
+    	<div class="rightTitle">
+          	<ul class="rightUl">
+          		<li class="rightLiOn">实物奖品入库</li>
+			</ul>
+      	</div>
+        <div class="contentBox">
+        	<table width="100%" cellspacing="0" cellpadding="0" class="searchTable">
+				<tbody>
+                	<tr>
+                        <td width="80" class="aRight">商品名称：</td>
+                        <td width="100"><input type="text" value="" class="w100Text ui-autocomplete-input" name="title" id="prizeName" autocomplete="off"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span></td>
+                        <td width="80" class="aRight">商品编码：</td>
+                        <td width="100"><input type="text" value="" class="w100Text" name="code"></td>
+                        <td width="55" class="aRight">类型：</td>
+                        <td width="245">
+                            <select onchange="getPrizeTypes(this.value);" class="w70Select" id="prizeForm_type1" name="type1">
+                                <option selected="selected" value="">请选择</option>
+                                <option value="1">电信增值</option>
+                                <option value="2">休闲娱乐</option>
+                                <option value="3">便捷生活</option>
+                                <option value="4">酒店旅游</option>
+                                <option value="5">网购卡</option>
+                                <option value="6">等值现金</option>
+                                <option value="7">网络视频</option>
+                                <option value="8">游戏礼包</option>
+                                <option value="9">优惠券</option>
+                                <option value="10">美食卡劵</option>
+                                <option value="44">实物奖</option>
+                                <option value="258">图书、音像、电子书刊</option>
+                                <option value="259">家用电器</option>
+                                <option value="260">电脑、办公</option>
+                                <option value="261">个护化妆</option>
+                                <option value="262">钟表</option>
+                                <option value="263">母婴</option>
+                                <option value="264">食品饮料、保健食品</option>
+                                <option value="265">汽车用品</option>
+                                <option value="266">玩具乐器</option>
+                                <option value="267">手机</option>
+                                <option value="268">数码</option>
+                                <option value="269">家居家装</option>
+                                <option value="270">厨具</option>
+                                <option value="271">服饰内衣</option>
+                                <option value="272">鞋靴</option>
+                                <option value="273">礼品箱包</option>
+                                <option value="274">婚庆</option>
+                                <option value="275">珠宝</option>
+                                <option value="276">运动健康</option>
+                                <option value="277">彩票、旅行、充值、票务</option>
+                                <option value="278">机票</option>
+                                <option value="279">酒店</option>
+                                <option value="280">旅行</option>
+                                <option value="281">充值</option>
+                                <option value="282">游戏</option>
+                                <option value="283">票务</option>
+                                <option value="284">会议会展场地</option>
+                                <option value="285">电信充值</option>
+                                <option value="286">虚拟增值</option>
+                                <option value="287">电商卡券</option>
+                                <option value="288">汽车服务</option>
+                                <option value="289">线下卡券</option>
+                                <option value="290">O2O服务</option>
+                                <option value="291">等值现金</option>
+							</select>
+							<select onchange="getPrizeTypes1(this.value);" class="w70Select" id="type" name="type2">
+								<option value="">请选择</option> 
+            				 </select>
+							<select class="w70Select" id="type2" name="typeSub">
+								<option value="">请选择</option> 
+            				</select>
+						</td>
+                        <td width="55" class="aRight">
+                            状态：
+                        </td>
+						<td align="left">
+							<select class="w10Select" id="prizeForm_state" name="state">
+                                <option selected="selected" value="">请选择</option>
+                                <option value="Y">已审核</option>
+                                <option value="W">未审核</option>
+                                <option value="D">待审核</option>
+                                <option value="F">未通过</option>
+                                <option value="A">已上架</option>
+                                <option value="X">已下架</option>
+							</select>
+						</td>
+                        <td><input type="submit" value="搜索" class="w60BlueBtn" name="searchsub"></td>
+					</tr>
+				</tbody>
+            </table>
+            <table class="switchTable" cellpadding="0" cellspacing="0">
+            	<tr>
+                	<th width="30"></th>
+                    <th width="220">订单号</th>
+                    <th width="125">下单时间</th>
+                    <th width="90">订单总量</th>
+                    <th width="120">已购数量</th>
+                    <th width="90"></th>
+                    <th width="60">操作</th>
+                    <th></th>
+                </tr>
+                <tbody>
+                	<tr class="blueBg">
+                    	<td align="right"><span class="switchBtn">+</span></td>
+                        <td>123456789012345678</td>
+                        <td>2015-07-07</td>
+                        <td>10000</td>
+                        <td>1000/10000</td>
+                        <td><a href="#">首次入库</a></td>
+                        <td><a href="#">编辑</a></td>
+                    	<td><a href="#">入仓详情</a></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                	<tr class="blueBg">
+                    	<td align="right"><span class="switchBtn">-</span></td>
+                        <td>123456789012345678</td>
+                        <td>2015-07-07</td>
+                        <td>10000</td>
+                        <td>1000/10000</td>
+                        <td><a href="#">首次入库</a></td>
+                        <td><a href="#">编辑</a></td>
+                    	<td><a href="#">入仓详情</a></td>
+                    </tr>
+                    <tr>
+                    	<td></td>
+                        <td>商品码</td>
+                        <td>商品名称</td>
+                        <td>商品重量</td>
+                        <td>商品数量</td>
+                        <td>入仓数量</td>
+                        <td></td>
+                        <td>入仓时间</td>
+                    </tr>
+                    <tr>
+                    	<td></td>
+                        <td>123</td>
+                        <td>洗衣液</td>
+                        <td>1KG</td>
+                        <td>10000</td>
+                        <td>5000</td>
+                        <td></td>
+                        <td>2015-07-07</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                	<tr class="blueBg">
+                    	<td align="right"><span class="switchBtn">-</span></td>
+                        <td>123456789012345678</td>
+                        <td>2015-07-07</td>
+                        <td>10000</td>
+                        <td>1000/10000</td>
+                        <td><a href="#">首次入库</a></td>
+                        <td><a href="#">编辑</a></td>
+                    	<td><a href="#">入仓详情</a></td>
+                    </tr>
+                    <tr>
+                    	<td></td>
+                        <td>商品码</td>
+                        <td>商品名称</td>
+                        <td>商品重量</td>
+                        <td>商品数量</td>
+                        <td>入仓数量</td>
+                        <td></td>
+                        <td>入仓时间</td>
+                    </tr>
+                    <tr>
+                    	<td></td>
+                        <td>123</td>
+                        <td>洗衣液</td>
+                        <td>1KG</td>
+                        <td>10000</td>
+                        <td>5000</td>
+                        <td></td>
+                        <td>2015-07-07</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

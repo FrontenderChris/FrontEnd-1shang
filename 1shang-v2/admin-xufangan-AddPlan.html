@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>新增方案奖品</title>
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="top">
+   <div class="center">
+     <div class="logo"><a href="/"><img src="images/logo.png" height="50"></a></div>
+     <div class="topright">	
+     <span> 	
+          <input id="hiddenUserId" type="hidden" value="">
+        <a id="sidebar" href="javascript:void(0);" onclick="addFavorite(1);" title="易赏-奖品列表">收藏本站</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="/user/toUserEdit" onclick="user();">账户管理</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                  欢迎您，admin
+        	
+        	  
+        <a id="messageText" href="/notice/userMessage?doWhat=back">消息中心</a>&nbsp;&nbsp;&nbsp;&nbsp;  	  
+        <a href="javascript:logout1();">退出</a></span>
+       
+     </div>
+   </div>
+   <div class="center">	
+     <div class="navlist">
+     
+     	<span class="menuOn"><a href="/prize/prizeListPage">奖品管理</a></span>
+     
+     	<span><a href="/user/userListPage">系统管理</a></span>
+     
+     	<span><a href="/company/companyListPage">客户管理</a></span>
+     
+     	<span><a href="/company/accountPayListPage">财务管理</a></span>
+     
+     	<span><a href="/supplier/supplierManage">供应商管理</a></span>
+     
+     </div>
+   </div>
+</div>
+
+<div id="center" class="center padding-top-50 clearfix">
+	<!-- 左边菜单 -->	
+	<div class="mainLeft clearfix">
+        <div id="div1" class="mainLeft clearfix">
+           <div class="leftNavTitle clearfix">
+              <div class="guest-logo">  
+                    <img src="upload/user/footer.png" width="48" height="48">
+              </div>
+              <div class="guest-words">您好！<br>admin</div>
+              <div class="guest-mod">
+                <a href="/user/toUserEdit" class="inner_btn_r"><img src="images/xunjia-3.png" width="11" height="11"></a>
+              </div>
+           </div>
+           <ul class="leftListNav">
+           
+             <li class="leftLiOn"><a href="#">易赏奖品库</a></li>
+             
+             <li><a href="#">产品管理</a></li>
+             
+             <li><a href="#">商城管理</a></li>
+             
+             <li><a href="#">询价管理</a></li>
+             
+             <li><a href="#">报价管理</a></li>
+             
+             <li><a href="#">发放管理</a></li>
+           
+           </ul>
+        </div>
+        <ul>
+            <li><br></li>
+        </ul>
+	</div>
+    
+    <!--右侧内容-->
+    <div class="mainRight">
+		<div class="rightTitle">
+			<ul class="rightUl">
+				<li class="rightLiOn">新增方案</li>				
+			</ul>
+		</div>
+        <div class="plusBox">
+            <table cellpadding="0" cellspacing="0">
+            	<tr>
+                	<td width="130" align="right">方案1主题：</td>
+                    <td>
+                    	<input type="text" class="w230Text"</td>
+                        <input type="button" class="plusPlanBtn" value="添加平台服务" />
+                        <input type="button" class="plusPlanBtn" value="添加客户案例" />
+                        <input type="button" class="plusPlanBtn" value="添加方案预算" />
+                    </td>
+                </tr>
+                <tr>
+                	<td width="130" align="right">方案介绍：</td>
+                    <td>
+                    	<textarea></textarea>
+                    </td>
+                </tr>
+                <tr>
+                	<td rowspan="2" width="130" align="right">添加奖品：</td>
+                    <td>
+                    	<a href="javascript:;">添加奖品</a>
+                    </td>
+                </tr>
+                <tr>
+                	<td>
+                    	<!--奖品信息表格-->
+                    	<table class="infoTable" cellpadding="0" cellspacing="0">
+                        	<tr>
+                            	<th>奖品编码</th>
+                                <th>奖品名称</th>
+                                <th>类型</th>
+                                <th>面值</th>
+                                <th>单价</th>
+                                <th>报价</th>
+                                <th>数量</th>
+                                <th>小计</th>
+                            </tr>
+                            <tr>
+                            	<td>2190002</td>
+                                <td><img src="images/imgGift.jpg" width="60" height="60" />双人2D电影票</td>
+                                <td>电影票</td>
+                                <td>￥110.00</td>
+                                <td><input type="text" value="" class="w50Text" /></td>
+                                <td><input type="text" value="" class="w50Text" /></td>
+                                <td>10</td>
+                                <td>￥600.00</td>
+                            </tr>
+                        </table>
+                        <!--奖品信息表格-->
+                    </td>
+                </tr>
+                <tr>
+                	<td align="right">平台服务：</td>
+                    <td>123123123123</td>
+                </tr>
+                <tr>
+                	<td align="right">客户案例：</td>
+                    <td>康师傅冰红茶</td>
+                </tr>
+                <tr>
+                	<td align="right">方案预算：</td>
+                    <td>123123123123</td>
+                </tr>
+            </table>
+            <div class="plusBtnBox">
+            	<input type="button" class="plusPlanBtn" value="添加方案二" />
+            </div>
+            <div class="submitBtnBox">
+            	<input type="button" class="submitBtn" value="保&nbsp;&nbsp;存" />
+                <input type="button" class="cancelBtn" value="取&nbsp;&nbsp;消" />
+                <input type="button" class="submitBtn" value="方案预览" />
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

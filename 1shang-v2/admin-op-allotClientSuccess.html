@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>运营后台-分配客户-成功</title>
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<div id="top">
+   <div class="center">
+     <div class="logo"><a href="/"><img src="images/logo.png" height="50"></a></div>
+     <div class="topright">	
+     <span> 	
+          <input id="hiddenUserId" type="hidden" value="">
+        <a id="sidebar" href="javascript:void(0);" onclick="addFavorite(1);" title="易赏-奖品列表">收藏本站</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="/user/toUserEdit" onclick="user();">账户管理</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                  欢迎您，admin
+        	
+        	  
+        <a id="messageText" href="/notice/userMessage?doWhat=back">消息中心</a>&nbsp;&nbsp;&nbsp;&nbsp;  	  
+        <a href="javascript:logout1();">退出</a></span>
+       
+     </div>
+   </div>
+   <div class="center">	
+     <div class="navlist">
+     
+     	<span><a href="/prize/prizeListPage">奖品管理</a></span>
+     
+     	<span><a href="/user/userListPage">系统管理</a></span>
+     
+     	<span class="menuOn"><a href="/company/companyListPage">客户管理</a></span>
+     
+     </div>
+   </div>
+</div>
+
+<div id="center" class="center padding-top-50 clearfix">
+	<!-- 左边菜单 -->	
+	<div class="mainLeft clearfix">
+        <div id="div1" class="mainLeft clearfix">
+           <div class="leftNavTitle clearfix">
+              <div class="guest-logo">  
+                    <img src="upload/user/footer.png" width="48" height="48">
+              </div>
+              <div class="guest-words">您好！<br>admin</div>
+              <div class="guest-mod">
+                <a href="/user/toUserEdit" class="inner_btn_r"><img src="images/xunjia-3.png" width="11" height="11"></a>
+              </div>
+           </div>
+           <ul class="leftListNav">
+           
+             <li><a href="#">我的客户</a></li>
+             
+             <li><a href="#">方案客户</a></li>
+             
+             <li class="leftLiOn"><a href="#">询价客户</a></li>
+           
+           </ul>
+        </div>
+        <ul>
+            <li><br></li>
+        </ul>
+	</div>
+    
+    <!--右侧内容-->
+    <div class="mainRight">
+		<div class="rightTitle">
+			<ul class="rightUl">
+				<li class="rightLiOn">分配客户</li>				
+			</ul>
+		</div>
+        <h3>咨询信息</h3>
+        <p class="infoLine">
+        	客户名称：XXX&nbsp;&nbsp;手机号码：<span class="org">13813813811</span>&nbsp;&nbsp;分配销售：Neo
+        </p>
+        <table class="infoTable" cellpadding="0" cellspacing="0">
+        	<tr>
+            	<th>商品编码</th>
+                <th>商品名称</th>
+                <th>供应商</th>
+                <th>提交时间</th>
+            </tr>
+            <tr>
+            	<td>201900002</td>
+                <td>双人2D电影票升级版</td>
+                <td>万宝嘉礼</td>
+                <td>2015-07-21 24:00:00</td>
+            </tr>
+        </table>
+        <p class="infoLine">
+        	填写沟通内容：
+        </p>
+        <textarea class="w820Textarea"></textarea>
+        <input type="button" class="w85BlueBut" value="返&nbsp;回" style=" margin:10px 0 10px 20px;" />
+    </div>
+</body>
+</html>

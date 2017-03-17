@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	font-family:"Microsoft Yahei", "黑体", "宋体", Arial;
+	font-size:12px;
+	color:#4c4c4c;
+	background-color:#fff;
+}
+* {
+	outline:none;
+}
+.clearfix {
+*zoom:1
+}
+.clearfix:before, .clearfix:after {
+	display:table;
+	content:"";
+	line-height:0
+}
+.clearfix:after {
+	clear:both
+}
+img {
+	border:none;
+}
+a, a:hover {
+	text-decoration:none;
+	color:#4c4c4c;
+}
+.center {
+	width:1100px;
+	margin:0 auto;
+}
+.padding-top-50 {
+	margin-top:50px;
+}
+.whitebg {
+	background-color:#fff;
+}
+ul, li {
+	list-style:none;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.blue{color:#0484cd;}
+.lightyellow{color:#fe3000;}
+.tipsyellow{color:#ff7200;}
+.green{color:#008000;}
+#error{color:#f00;font-size:12px;padding:0;margin:0;}
+
+/*****登录页面*****/
+#top .logo{height:100px;width:222px;float:left;margin:20px 0 0 20px;}
+#top .topRight{width:600px;float:right;padding-top:56px;}
+#top .topRight p{float:left;margin-right:20px;height:24px;line-height:24px;color:#4d4d4d;font-size:14px;}
+#top .topRight p img{vertical-align:middle;}
+.bgBox{ width:100%; height:460px; background:url(../../images/login/bgLoginRepeat.png) repeat-x;}
+.loginmain{width:1200px; height:460px; margin:0px auto; background:url(../../images/login/bgLogin.png) no-repeat;}
+.loginMainL{width:575x;float:left; text-align:right;}
+.loginMainR{width:400px;float:right; margin-top:40px;margin-right:0px;}
+.loginMainR .loginTab{ height:38px; width:378px; border:1px solid #dad9d9; border-bottom:none;}
+.loginMainR .loginTab span{ width:189px; height:38px; display:block; float:left; cursor:pointer; line-height:38px; text-align:center; font-size:14px; color:#4c4c4c; background:#fff;}
+.loginMainR .loginTab span.on{ background:#0484cd; color:#fff;}
+.loginMainR dl.accLogin{margin:0; width:378px; height:288px; padding-top:20px; border:1px solid #dad9d9; background:#fff;}
+.loginMainR dl.accLogin dt.title{ width:270px; margin:0 auto 5px; font-size:14px;height:30px;line-height:20px;}
+.loginMainR dl.accLogin dd{ width:270px; height:40px; line-height:40px; margin:10px auto 10px;}
+.loginMainR dl.accLogin dd img{vertical-align:middle;}
+.loginMainR dl.accLogin dd i{float:right; font-style:normal;}
+#hideCode{ line-height:20px;}
+#hideCode img{ width:100px; height:36px; display:block; float:left; margin:2px 4px;}
+#hideCode input{ margin-top:2px;}
+.loginMainR .wechatLogin{ margin:0; width:378px; height:298px; padding-top:10px; border:1px solid #dad9d9; position:relative; background:#fff;}
+.loginMainR .wechatLogin p{ font-size:16px; text-align:center; line-height:40px; margin:0;}
+.loginMainR .wechatLogin img{ display:block; margin:0px auto; width:160px; height:160px; border:4px solid #0484cd; border-radius:4px;}
+.loginMainR .wechatLogin .blueSub{ width:170px; height:24px; margin:20px auto 0; background:#0484cd; line-height:24px; border-radius:4px; color:#fff; font-size:12px; text-align:center;}
+.loginMainR .wechatLogin .linkHelp{ width:100px; height:30px; display:block; margin:5px auto;}
+.loginMainR .wechatLogin .linkHelp i{ width:20px; height:20px; margin:5px 8px 5px 12px; display:block; float:left; border-radius:10px; line-height:20px; background:#959595; color:#fff; text-align:center; font-style:normal;}
+.loginMainR .wechatLogin .linkHelp span{ float:left; line-height:30px;}
+.loginMainR .wechatLogin .helpBg{ position:absolute; width:168px; height:168px; left:105px; top:50px;}
+.loginMainR .wechatLogin .helpBg img{ }
+.loginInput{width:258px;height:34px;border:1px solid #bfbdbf;line-height:34px; padding:0 0 0 10px;color:#a6a6a6;border-radius:5px; vertical-align:middle;}
+.subLogin{width:273px;height:40px;line-height:40px;border:none;background:url(../../images/login/newLogin.png) no-repeat; text-align:center;color:#fff;font-size:14px;cursor:pointer;}
+.loginFooter{margin-top:160px;height:50px;line-height:30px;margin-bottom:50px; text-align:center;}
+/****注册页面***/
+.sendCodeButton{width:115px;height:35px;margin-top:3px;line-height:35px;text-align:center;cursor:pointer;background:url(../../images/login/login-7.png) no-repeat;}
+.loginMainR dl dt{height:40px;line-height:40px;margin:0 0 5px 0;}
+.loginMainR dl dt.error{height:14px;line-height:14px;font-size:12px;margin:0;}
+.loginMainR dl.detail{color:#6e6e6e;font-size:14px;width:343px;}
+.loginMainR dl.detail dt{width:85px; height:40px;line-height:40px; text-align:right;float:left;}
+.loginMainR dl.detail dt.inputdt{width:258px; height:40px;line-height:40px; text-align:left;float:left;}
+.loginMainR dl dt.title{ width:272px; font-size:16px;}
+.loginMainR dl dt img{vertical-align:middle;}
+.loginMainR dl dt.title span{ width:140px; float:left; display:block;}
+.loginMainR dl dt i{width:100px; height:30px; display:block; float:right; font-style:normal; text-align:left;}
+.loginMainR dl dt .submitInput{ width:135px;height:36px;line-height:36px;border:none; background:url(../../images/login/registerPin.png) no-repeat; border-radius:5px;text-align:center;color:#fff;font-size:14px;cursor:pointer; vertical-align:middle;}
+.loginMainR dl dt .submitInput.disabled{ background:#999;}
+/*交易密码*/
+.loginMainR h2{ font-size:16px; line-height:28px; color:#6e6e6e; font-weight:normal; margin:0 0 5px;}
+.loginMainR ul{ border-top:1px dashed #e2e1e1; margin-top:5px;}
+.loginMainR ul li{ line-height:50px; font-size:12px;}
+.loginMainR ul li.first{ margin-top:5px; line-height:40px;}
+.loginMainR ul li span{ font-size:15px; color:#ff6d00; margin-right:5px;}
+.loginMainR ul li .textInput{ width:258px; height:32px; border:1px solid #bfbdbf; line-height:32px; padding-left:10px; color:#a6a6a6; border-radius:5px;}
+.loginMainR ul li .submitInput{ width:140px;height:40px;line-height:40px;border:none;background:url(../../images/login/login-6.png) no-repeat; text-align:center;color:#fff;font-size:14px;cursor:pointer;}
+.loginMainR ul li i{ color:#ff6d00; font-style:normal;}
+/***select 框***/
+DIV.selectbox-wrapper {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 0px solid; MARGIN-TOP: -3px; BORDER-LEFT: #ff9900 1px solid; WIDTH: 269px; BORDER-BOTTOM: #ff9900 1px solid; POSITION: absolute; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { /* Webkit内核兼容CSS */ 
+  DIV.selectbox-wrapper {
+	  BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 0px solid; MARGIN-TOP: -3px; BORDER-LEFT: #ff9900 1px solid; WIDTH: 268px; BORDER-BOTTOM: #ff9900 1px solid; POSITION: absolute; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+  }
+}
+DIV.selectbox-wrapper UL LI.selected {BACKGROUND-COLOR: #e0ecf7;}
+DIV.selectbox-wrapper UL LI.current {
+	COLOR: #fff; BACKGROUND-COLOR: #0484cd
+}
+DIV.selectbox-wrapper UL LI {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; WIDTH: 258px; CURSOR: pointer; LINE-HEIGHT: 20px; PADDING-TOP: 3px
+}
+.selectbox { border:none;  DISPLAY: block; padding-left:10px;color:#a6a6a6;width: 260px; CURSOR: pointer; padding-top:5px; HEIGHT: 30px; background:url(../../images/login/selectbg1.png) no-repeat; background-size:100% 100%;}
+/****模拟select框完成*****/
+
+
+
+
+

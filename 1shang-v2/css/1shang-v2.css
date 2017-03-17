@@ -1,0 +1,535 @@
+/*index*/
+.center.m-t-10{ margin-top:10px;}
+.center.m-t-20{ margin-top:20px;}
+.center.m-t-30{ margin-top:30px;}
+/*index section one*/
+/*shopType*/
+.shopType{ width:242px; float:left;}
+.shopType .typeBox{ width:240px; padding-top:7px; margin-bottom:15px; border:1px solid #dad9d9; position:relative;}
+.shopType .typeBox.last{ margin-bottom:0; padding-top:8px;}
+.shopType .typeBox span.typeTitle{ width:70px; height:20px; display:block; background:#fff; color:#ff6d00; text-align:center; position:absolute; top:-10px; left:15px;}
+.shopType .typeBox .labelBox{ height:44px; padding-left:24px;}
+.shopType .typeBox .labelBox.bottomLine{ border-bottom:1px solid #fff;}
+.shopType .typeBox .labelBox a{ width:70px; height:44px; margin:0; float:left; display:block; line-height:44px; color:#6c6c6c; font-size:12px;}
+.shopType .typeBox .labelBox a:hover{ color:#ff6d00;}
+/*focusBox*/
+.focusBox{ width:693px; height:393px; overflow:hidden; margin-left:12px; float:left; _display:inline;}
+/*trade safeguard*/
+.tsBox{ width:239px; height:391px; border:1px solid #dad9d9;  float:right;}
+.tsBox dl{ padding-bottom:10px;}
+.tsBox dt{ height:39px; padding-left:15px; background:#f9f9f9; border-bottom:1px solid #dad9d9; color:#0484cd; font-size:18px; line-height:39px; font-weight:bold; text-align:center;}
+.tsBox dd{ height:60px; padding:16px 15px 10px 70px; background:url(../images/1shang-bg.png) no-repeat; border-bottom:1px dashed #e8e8e8;}
+.tsBox dd p{ color:#6c6c6c; font-size:11px; line-height:18px;}
+.tsBox dd p.tsTit{ color:#0484cd; font-size:14px; line-height:26px;}
+.tsBox dd.ts01{ background-position: 10px -140px;}
+.tsBox dd.ts02{ background-position: 10px -245px;}
+.tsBox dd.ts03{ background-position: 10px -348px;}
+.tsBox dd.ts04{ background-position: 10px -450px; border-bottom:none;}
+.tsBox .moreBtn{ width:98px; height:34px; margin:12px 0 0 70px; display:block; border:1px solid #ff6d00; border-radius:5px; line-height:34px; text-align:center; color:#ff6d00;}
+@media \0screen\,screen\9 {
+	.tsBox .moreBtn{ width:100px; height:36px; display:block; padding:0; border:none; line-height:36px; text-align:center; color:#ff6d00; background:url(../images/bgIndexMore.jpg) no-repeat;}
+}
+.tsBox .moreBtn:hover{ text-decoration:none;}
+/*focusBox*/
+.focusBox{ width:693px; height:393px; position:relative; z-index:1; overflow:hidden; margin-left:12px; float:left; _display:inline;}
+.focusBox .contentimg { position:absolute; top:0;left:0;	width:7000px; }
+.focusBox .contentimg li { width:693px;	height:393px; float:left; margin-right:0px; overflow:hidden; }
+.focusBox .contentimg li img { width:693px;	height:393px; }
+.focusBox .navbox {	width:100%;	overflow:hidden; position:absolute;	right:0px; bottom:10px;	float:left; }
+.focusBox .navbox ul { float:left; left:50%; margin:0 auto; position:relative; }
+.focusBox .navbox li { width:10px; height:10px; border-radius:5px; float:left; margin-right:8px; background:url(../images/focusBtn.png) no-repeat; cursor:pointer;	position:relative; right:50%; }
+.focusBox .navbox li.selected { width:10px;	height:10px; float:left; margin-right:8px; background:url(../images/focusBtnSelected.png) no-repeat;}
+/*index section two*/
+.noBgTitle{ padding-left:10px; line-height:48px; color:#6c6c6c; font-size:18px; font-weight:normal;}
+/*selectBox*/
+.selectBox{ width:468px; float:left;}
+.selectBox dl{ width:466px; height:392px; border:1px solid #dad9d9; background:#f9f9f9;}
+.selectBox dl dt,.selectBox dd{ width:400px; padding:0 33px;}
+.selectBox dl dt{ height:58px; line-height:58px; font-size:16px; color:#000;}
+.selectBox dl dd{ height:38px; margin-bottom:11px; position:relative;}
+.selectBox dl dd .selectBtn{ width:388px; height:36px; padding:0 0 0 10px; border:1px solid #dad9d9; line-height:36px; background:url(../images/1shang-bg.png) 0 -48px #fff no-repeat; cursor:pointer;}
+.selectBox dl dd.submitSub{ margin-top:22px;}
+.selectBox .optionBox{ width:398px; max-height:190px; border:1px solid #dad9d9; border-top:none; background:#fff; overflow-y:scroll; overflow-x:hidden; display:none;}
+.selectBox .optionBox li{ width:388px; height:38px; padding-left:10px; line-height:38px; cursor:pointer;}
+.selectBox .optionBox li:hover{ color:#fff; background:#cbcbcb;}
+.selectBox .stepTwo{ width:466px; height:392px; border:1px solid #dad9d9; background:#f9f9f9;}
+.selectBox .stepTwo ul{ width:400px; margin:120px auto 0;}
+.selectBox .stepTwo ul li{ height:40px; line-height:40px;}
+.selectBox .stepTwo ul li.last{ margin-top:30px; height:50px; line-height:50px;}
+.selectBox .stepTwo ul li.last .w180OrgBtn{ float:left;}
+.selectBox .stepTwo ul li.last .w180BlueBtn{ float:right;}
+.selectBox .stepThree{ width:466px; height:392px; border:1px solid #dad9d9; background:#fff;}
+.selectBox .stepThree h3{ width:350px; height:44px; padding-left:50px; margin:15px auto 0; line-height:22px; font-size:12px; font-weight:normal; background:url(../images/mico12.png) left center no-repeat;}
+.selectBox .stepThree img{ display:block; margin:10px auto;}
+.selectBox .stepThree input{ display:block;  margin:0 auto;}
+/*serviceBox*/
+.serviceBox{ width:461px; margin-left:15px; float:left; _display:inline;}
+.serviceBox .serviceInnerBox{ width:459px; height:392px; border:1px solid #dad9d9; background:#f9f9f9;}
+.serviceBox .serviceInnerBox h3{ width:305px; height:45px; padding-left:20px; margin:10px 0 0; position:relative; left:-6px; line-height:40px; font-size:16px; color:#fff; font-weight:normal; background:url(../images/1shang-bg.png) no-repeat;}
+.serviceBox .serviceInnerBox h3.blueTitOne{ background-position:0 -1528px;}
+.serviceBox .serviceInnerBox h3.orgTitOne{ background-position:0 -1592px;}
+.serviceBox .serviceInnerBox h3.blueTitTwo{ background-position:0 -1656px;}
+.serviceBox .serviceInnerBox h3.orgTitTwo{ background-position:0 -1720px;}
+.serviceBox .serviceInnerBox p{ width:428px; margin:0 auto; line-height:40px;}
+.serviceBox .serviceInnerBox p span{ margin-right:25px; display:inline-block; font-size:14px; padding-left:13px; background:url(../images/bgFw.jpg) left no-repeat;}
+.serviceBox .serviceInnerBox p span em{ font-size:12px;}
+/*demandBox*/
+.demandBox{ width:241px; float:right;}
+.demandBox .borderBox{ width:239px; height:392px; overflow:hidden; border:1px solid #dad9d9; background:#fff;}
+.demandBox h3{ height:50px; padding:10px 0 0 12px; line-height:50px; font-size:18px;}
+.demandBox h3 .yellow{ font-size:36px; font-weight:600;}
+.demandBox .marqueeBox{ width:239px; height:332px; overflow:hidden; position:relative;}
+.demandBox .marqueeBox .marqueeBlock{ margin-top:0;}
+.demandBox .marqueeBox ul{ height:324px;}
+.demandBox ul li{ padding:9px 0 9px 12px; border-bottom:1px dashed #dad9d9; font-size:12px;}
+.demandBox ul li.last{ border:none;}
+.demandBox ul li p{ font-size:11px; color:#797979; line-height:16px;}
+.demandBox ul li .demandInfo{ height:30px; line-height:30px; font-size:12px; color:#000; position:relative;}
+.demandBox ul li .demandInfo .right{ margin-right:12px; color:#aaa; font-size:11px; position:absolute; top:0; right:0;}
+
+/*index section three*/
+/*goodList*/
+.goodsListBox{ width:944px; float:left;}
+.goodsListBox .goodsInnerBox{ height:408px;}
+.goodsListBox .goodsInnerBox p{ margin-left:12px;}
+.goodsListBox .goodsInnerBox p.tit{ margin-top:12px;}
+.goodsListBox .goodsInnerBox p.tit,.goodsListBox .goodsInnerBox p.tit a{ color:#434343; font-size:14px;}
+.goodsListBox .goodsInnerBox p.subTit,.goodsListBox .goodsInnerBox p.subTit a{ color:#ff6d00; font-size:12px;}
+.goodsListBox .goodsInnerBox .goodsL{ width:256px; height:406px; float:left; overflow:hidden; background:url(../images/bgGoodsLeft.jpg) #2890f2 top center no-repeat; border-right:1px solid #d9d9d9;}
+.goodsListBox .goodsInnerBox .goodsL a{ width:124px; height:36px; display:block; margin:348px auto 0; border:none; border-radius:3px; background:#ff6d00; line-height:36px; color:#fff; text-align:center;}
+.goodsListBox .goodsInnerBox .goodsL a:hover{ text-decoration:none;}
+.goodsListBox .goodsInnerBox .itemBox{ width:687px; float:left;}
+.goodsListBox .goodsInnerBox .itemBox ul{ overflow:hidden; zoom:1; border-top:1px solid #d9d9d9;}
+.goodsListBox .goodsInnerBox .itemBox li{ float:left;}
+.goodsListBox .goodsInnerBox .itemBox li{ width:228px; height:202px; border:1px solid #d9d9d9; border-left:none; border-top:none;}
+.goodsListBox .goodsInnerBox .itemBox li p{ line-height:24px;}
+
+/*joinUs*/
+.joinUs{ width:241px; float:right;}
+.joinUs .supplierBox{ width:239px; height:406px; border:1px solid #dad9d9; background:#fff;}
+.joinUs .supplierBox .applyBtn{ width:221px; height:42px; margin:14px auto 0; display:block; background:#0484cd; text-align:center; line-height:42px; color:#fff; font-size:18px;}
+.joinUs .supplierBox .applyBtn:hover{ text-decoration:none;}
+.joinUs .supplierBox h3,.joinUs .supplierBox li{ padding:0 14px;}
+.joinUs .supplierBox h3{ height:68px; line-height:68px; font-size:18px; font-weight:normal;}
+.joinUs .supplierBox h3 .yellow{ font-size:36px; font-weight:600;}
+.joinUs .supplierBox .marqueeBox{ width:239px; height:280px; overflow:hidden; position:relative;}
+.joinUs .supplierBox .marqueeBox .marqueeBlock{ margin-top:0;}
+.joinUs .supplierBox .marqueeBox ul{ height:280px;}
+.joinUs .supplierBox li{ padding:10px 14px 9px; border-top:1px dashed #dad9d9;}
+.joinUs .supplierBox li p{ line-height:18px; color:#797979; font-size:10px;}
+.joinUs .supplierBox li p.supplierInfo{ height:18px; font-size:12px; color:#000; position:relative;}
+.joinUs .supplierBox li p.supplierInfo .right{ color:#aaa; font-size:10px; position:absolute; right:0; top:0;}
+
+/*index section four*/
+/*exampleBox*/
+.exampleBox{ width:1198px; height:294px; border:1px solid #dad9d9; overflow:hidden;}
+.exampleBox li{ width:239px; height:294px; float:left; border-right:1px solid #dad9d9;}
+.exampleBox li .egImg{ width:218px; height:188px; margin:10px auto; position:relative; cursor:pointer;}
+.exampleBox li .egImg .egText{ width:204px; height:20px; padding:4px 0 4px 14px; position:absolute; left:0; bottom:0; background-color:rgba(0,0,0,0.7); cursor:pointer;}
+.exampleBox li .egImg .egText p{ color:#fff; line-height:20px; font-size:12px; cursor:pointer;}
+.exampleBox li .egImg .egText p.tit{ font-size:14px;}
+@media \0screen\,screen\9 {
+	.exampleBox li .egImg .egText{ background:#000; cursor:pointer; filter:alpha(opacity=70); -moz-opacity:0.7; -khtml-opacity: 0.7; opacity: 0.7;}
+}
+.exampleBox li h3{ font-size:14px; color:#000; margin-left:13px; line-height:32px; font-weight:normal;}
+.exampleBox li .egDetail{ width:218px; margin:0 auto; line-height:20px; font-size:11px;}
+.exampleBox li.last{ width:238px; border:none;}
+
+/*index section five*/
+/*turnBox*/
+.turnBox{ width:1200px; height:72px;}
+.turnBox a.turnLeft{ width:30px; height:72px; margin-left:10px; display:block; float:left; background:url(../images/1shang-bg.png) -340px -197px no-repeat;}
+.turnBox a.turnRight{ width:30px; height:72px; display:block; float:left; background:url(../images/1shang-bg.png) -370px -197px no-repeat;}
+.turnBox a.turnLeft:hover{ background-position:-340px -125px;}
+.turnBox a.turnRight:hover{ background-position:-370px -125px;}
+.turnBox .turnContent{ width:1088px; height:72px; margin:0 16px; position:relative; float:left; overflow:hidden;}
+.turnBox .turnContent ul{ width:3000px; height:72px; position:absolute;}
+.turnBox .turnContent li{ width:1088px; height:64px; padding:4px 0; float:left;}
+.turnBox .turnContent li img{ width:136px; height:64px;}
+
+/*shopList*/
+/*labelBox*/
+.shoplabelBox{ width:1174px; padding:12px; border:1px solid #dad9d9; background:#fff;}
+.shoplabelBox .clear{ padding:5px 0 0px; overflow:hidden; zoome:1;}
+.shoplabelBox .left{ width:70px; height:24px; margin-right:10px; float:left; line-height:24px; text-align:center;}
+.shoplabelBox ul{ width:1094px; overflow:hidden; float:left; display:block;}
+.shoplabelBox ul li{ min-width:60px; height:24px; margin:0 10px 5px 0; float:left; line-height:24px; text-align:center; display:block; vertical-align:middle;}
+.shoplabelBox ul li a{ height:24px; padding:0 10px; display:block; font-size:12px;}
+.shoplabelBox ul li.selected a{ background:#ff6d00; color:#fff;}
+.shoplabelBox ul li.selected a:hover{ text-decoration:none;}
+.shoplabelBox .packUp{ display:none;}
+.shoplabelBox .switchBtn{ width:50px; height:24px; margin-left:1120px; display:block; border:1px solid #dad9d9; line-height:24px; font-size:14px; text-align:center; cursor:pointer;}
+.labelSelected{ height:28px; text-align:left;}
+.labelSelected span{ height:26px; padding:0 5px; margin-right:5px; display:inline-block; border:1px solid #ff6d00; line-height:26px; color:#ff6d00; text-align:center; font-size:12px;}
+.labelSelected span.all{ width:56px;}
+.labelSelected span em{ margin-left:5px; color:#6c6c6c; cursor:pointer;}
+/*listBox*/
+.listBox table{ width:100%; border:1px solid #dad9d9;}
+.listBox table th{ height:38px; border-top:1px solid #dad9d9; border-bottom:1px solid #dad9d9; background:#f9f9f9; line-height:38px; font-weight:normal;}
+.listBox table td{ height:66px; text-align:center; border-bottom:1px dashed #dad9d9; font-size:12px;}
+.listBox table td a:hover{ color:#ff6d00;}
+.listBox table td.icoBox span{ width:23px; height:23px;/* margin-right:4px; float:left;*/ display:inline-block; /*position:relative; line-height:24px; cursor:pointer;*/}
+.listBox table td.icoBox span.icoBao{ background:url(../images/icoBao.jpg) no-repeat;}
+.listBox table td.icoBox span.icoTui{ background:url(../images/icoTui.png) no-repeat;}
+.listBox table td.icoBox span.icoFa{ background:url(../images/icoFa.jpg) no-repeat;}
+.listBox table td.icoBox span .titleBox{ width:222px; height:26px; padding:0 5px; border:1px solid #dad9d9; background:#fff; line-height:26px; position:absolute; top:24px; left:-5px; display:none;}
+.listBox table td.icoBox span .titleBox a{ color:#0484cd;}
+.listBox table td.icoBox span .titleBox .arrow{ width:7px; height:5px; position:absolute; top:-5px; left:10px; background:url(../images/1shang-bg.png) 0 -808px no-repeat;}
+.listBox table td.icoBox span.icoEx .titleBox{ padding:3px 5px;}
+.listBox table td.quantityBox span,.listBox table td.quantityBox input{ float:left; margin:21px 1px; }
+.listBox table td.quantityBox span{ width:22px; height:22px; display:block; border:1px solid #dad9d9; text-align:center; line-height:22px; cursor:pointer;}
+.listBox table td.quantityBox span.subBtn.disabled,.listBox table td.quantityBox span.plusBtn.disabled{ background:#e3e3e3;}
+.listBox table td .hoverBox{ width:80px; height:28px; position:relative;}
+.listBox table td .hoverBox li{ background:#fff; display:none;}
+.listBox table td .hoverBox li a{ width:78px; height:26px; display:block; border-left:1px solid #dad9d9; border-right:1px solid #dad9d9; line-height:26px; text-align:center; color:#0484cd;}
+.listBox table td .hoverBox li.firstBtn{ display:block;}
+.listBox table td .hoverBox li.firstBtn a{ width:78px; height:26px; display:block; border:1px solid #dad9d9; border-radius:4px;  color:#ff6d00; background:url(../images/1shang-bg.png) 56px -765px; no-repeat;}
+.listBox table td .hoverBox li.firstBtn a:hover{ border:1px solid #ff6d00; border-radius:4px 4px 0 0; text-decoration:none; background:#ff6d00; color:#fff;}
+.listBox table td .hoverBox li.lastBtn a{ border-bottom:1px solid #dad9d9; border-radius:0 0 4px 4px;}
+.listBox table td .borderLink{ width:80px; height:28px; display:inline-block; border:1px solid #d9d9d9; border-radius:3px; text-align:center; line-height:28px;}
+.listBox table td .borderLink:hover{ border:1px solid #ff6d00; color:#ff6d00; text-decoration:none;}
+.listBox table td .noBorderLink{ width:80px; display:inline-block;}
+.listBox table td .noBorderLink:hover{ color:#0484cd;}
+.listBox table tr.on td{ background:#f7f7f7;}
+
+/*detailPage*/
+.breadCrumbNav{ height:28px;}
+.detailBox{ height:300px;}
+.detailBox .detailLeft{ width:946px; height:300px; float:left;}
+.detailBox .detailLeft .goodsImgBox{ width:237px; float:left;}
+.detailBox .detailLeft .goodsImgBox img{ display:block;}
+.detailBox .detailLeft .goodsImgBox .icoBox{ height:63px; background:#f8f8f8; line-height:63px; text-align:center;}
+.detailBox .detailLeft .goodsImgBox .icoBox span.icoTui{ width:23px; height:23px; display:inline-block; background:url(../images/icoTui.png) no-repeat; vertical-align:middle;}
+.detailBox .detailLeft .goodsDetailList{ width:698px; height:300px; overflow:hidden; margin-left:11px; float:left; background:#f8f8f8;}
+.detailBox .detailLeft .goodsDetailList dl{ margin:16px 0 0 36px; height:208px;}
+.detailBox .detailLeft .goodsDetailList dl dt{ font-size:22px; line-height:1.5em;}
+.detailBox .detailLeft .goodsDetailList dl dd{ line-height:2em;}
+.detailBox .detailLeft .actionRow{ width:300px; padding:20px 0 0 360px; margin:0 auto 0; border-top:1px solid #d9d9d9;}
+.detailBox .detailLeft .actionRow input{ width:120px; height:32px; padding:0; border:none; cursor:pointer;}
+.detailBox .detailLeft .actionRow input.detailBuyBtn{ background:url(../images/bgDetailBlueBtn.png) no-repeat; margin-right:36px;}
+.detailBox .detailLeft .actionRow input.detailToCarBtn{ background:url(../images/bgDetailOrgBtn.png) no-repeat;}
+.detailBox .detailRight{ width:244px; height:300px; background:#f8f8f8; float:right;}
+.detailBox .detailRight h3{ margin-top:10px; font-size:14px; line-height:28px; text-align:center; font-weight:normal;}
+.detailBox .detailRight img{ width:170px; height:170px; display:block; margin:5px auto 0;}
+.detailBox .detailRight .xunjiaRow{ width:220px; margin:11px auto 0; border-top:1px solid #d9d9d9; text-align:center;}
+.detailBox .detailRight .xunjiaRow a{ padding-left:30px; margin-top:20px; display:inline-block; color:#6c6c6c; line-height:18px; font-size:16px; background:url(../images/icoWenhao.jpg) left no-repeat;}
+.goodsInfoLeft{ width:946px; float:left;}
+.goodsInfoLeft .goodsStepBox{ padding-top:22px; background:#f9f9f9;}
+.goodsInfoLeft ul{ height:192px; background:url(../images/imgStepBox.jpg) no-repeat;}
+.goodsInfoLeft ul li{ float:left; width:170px; padding-top:92px; text-align:center; margin-right:6px;}
+.goodsInfoLeft ul li p{ width:144px; margin:10px auto 0; line-height:1.5em;}
+.goodsInfoLeft ul li a{ padding:0 30px 0 20px; height:32px; margin-top:10px; border:1px solid #0484cd; border-radius:4px; background:url(../images/bgStepLink.jpg) right no-repeat; line-height:32px; color:#0484cd; display:none;}
+.goodsInfoLeft ul li a:hover{ text-decoration:none;}
+.goodsInfoLeft ul li.hover:hover p.f-s-12{ display:none;}
+.goodsInfoLeft ul li.hover:hover a{ display:inline-block;}
+.goodsInfoLeft .goodsStepBox.yijiefa ul{ height:192px; background:url(../images/imgStepBoxYijiefa.jpg) no-repeat;}
+.goodsInfoLeft .goodsStepBox.yijiefa ul li{ margin-right:78px;}
+.goodsInfoLeft .infoTabBox{ height:40px; margin-top:15px; border-bottom:1px solid #d9d9d9;}
+.goodsInfoLeft .infoTabBox a{ float:left; display:block; width:114px; height:38x; border-top:2px solid #fff; text-align:center; line-height:38px; cursor:pointer;}
+.goodsInfoLeft .infoTabBox a.on{ border-top:2px solid #0484cd; border-bottom:1px solid #fff;}
+.goodsInfoLeft .infoTabBox a:hover{ text-decoration:none;}
+.goodsInfoLeft .infoTabToBox{ width:944px; margin-top:15px; border:1px solid #d9d9d9;}
+.goodsInfoLeft .infoTabToBox h2{ height:50px; padding-left:20px; background:#f8f8f8; line-height:50px; font-weight:normal;}
+.goodsInfoLeft .infoTabToBox .infoTextBox{ padding:20px; line-height:20px; font-size:12px;}
+.goodsInfoLeft .infoTabToBox h3{ height:50px; padding-left:20px; line-height:50px; font-size:16px; font-weight:normal; color:#ff6d00;}
+.goodsInfoLeft .infoTabToBox .paramTable{ width:920px; margin:0 auto; }
+.goodsInfoLeft .infoTabToBox .paramTable td{ padding:8px 0 8px 10px;line-height:24px; border:1px solid #eee;}
+.goodsInfoLeft .infoTabToBox .paramTable td.bgGray{ background:#f9f9f9;}
+.goodsInfoLeft .infoTabToBox .yijiefaImg{ width:918px; height:880px; margin:0 auto 12px; border:1px solid #eee;}
+/*原详情右侧 现已废弃*/
+.serviceRight{ width:244px; float:right;}
+.serviceRight h2{ padding-left:10px; line-height:32px; font-weight:normal; border-bottom:1px solid #d9d9d9;}
+.serviceRight a{ width:244px; display:block; margin-top:10px;}
+.serviceRight a img{ display:block;}
+/*原详情右侧 现已废弃*/
+.itemRight{ width:242px; float:right; border:1px solid #d9d9d9;}
+.itemRight h2{padding-left:10px; line-height:32px; font-weight:normal; border-bottom:1px solid #d9d9d9; background:#f7f7f7;}
+.itemRight li{ width:228px; margin:10px auto 0; border-bottom:1px solid #d9d9d9;}
+.itemRight li p.tit a{ color:#434343; line-height:24px;}
+.itemRight li p.subTit a{ color:#ff6d00; font-size:12px; line-height:24px;}
+.itemRight li img{ display:block;}
+.itemRight li.last{ border-bottom:none;}
+
+.fixedFooter{ width:100%; height:204px; clear:both; position:relative; background:url(../images/xfk.png) center repeat-x; position:fixed; bottom:0; display:none;}
+.fixedFooter img{ display:block; margin:0 auto;} 
+.fixedFooter .close{ position:absolute; right:10%; top:55px; font-size:20px; color:#fff; cursor:pointer;}
+
+/*detail-layer*/
+.xunjiaLayer{ width:468px; text-align:left; background:#fbfbfb;}
+.xunjiaLayer h1{ color:#a6a6a6; margin:0; font-size:18px; font-weight:normal; line-height:1.8em; text-align:center;}
+.xunjiaLayer h3{ color:#a6a6a6; margin:0; font-size:14px; font-weight:normal; line-height:1.8em; text-align:center;}
+.xunjiaLayer ul{ width:376px; margin:20px auto 0;}
+.xunjiaLayer ul li{ margin-bottom:30px; text-align:center;}
+.xunjiaLayer .mobile{ width:335px; height:46px; padding:0 0 0 41px; margin:0 auto; border:none; border-radius:4px; background:url(../images/bgLayerDetailInput.jpg) 10px 0 #fff no-repeat; color:#a6a6a6; font-size:16px;}
+.xunjiaLayer .submitBtn{ width:376px; height:46px; padding:0; margin:0 auto; border:none; border-radius:4px; background:#0484cd; color:#fff; font-size:16px;}
+.xunjiaLayer p{ width:376px; margin:0px auto; line-height:24px; text-align:left;}
+.xunjiaLayer p .org{ color:#ff6d00;}
+.xunjiaLayer .toXunfangan{ width:120px; height:32px; padding:0; margin:10px 0 0 46px; border:none; background:url(../images/bgToXunfanan.jpg) no-repeat; cursor:pointer;}
+.xunjiaLayer img{ display:block; margin:10px auto;}
+.xunfanganLayer{ width:468px; padding-bottom:20px; background:#f9f9f9;}
+.xunfanganLayer .selectBox{ width:448px; margin:0 auto; float:none;}
+.xunfanganLayer .selectBox dl{ width:446px; height:auto; padding:23px 0; background:#fff;}
+.xunfanganLayer .selectBox dl dd{ padding:0 23px;}
+.xunfanganLayer .selectBox p{ padding-left:10px; margin-bottom:5px; color:#000;}
+.xunfanganLayer .tabBox{ width:446px; height:46px; border:1px solid #d9d9d9; border-bottom:none;}
+.xunfanganLayer .tabBox span{ float:left; display:block; width:222px; height:46px; line-height:46px; text-align:center; background:#fff;}
+.xunfanganLayer .tabBox span.first{ border-right:1px solid #d9d9d9;}
+.xunfanganLayer .tabBox span.on{ background:#e6e6e6;}
+.xunfanganLayer .stepTwo{ width:446px; background:#fff;}
+.xunfanganLayer .stepThree{ width:446px; background:#fff;}
+.xunfanganLayer .othersBox{ width:446px; padding-bottom:10px; background:#fff; border:1px solid #d9d9d9;}
+.xunfanganLayer .othersBox input,.xunfanganLayer .othersBox textarea{ margin:10px auto; display:block;}
+.xunfanganLayer .othersBox textarea{ width:388px; height:200px; padding:5px; border:1px solid #d9d9d9; border-radius:8px;}
+
+/*requireBox*/
+.requireLeft{ width:946px; float:left;}
+.requireLeft .requireTab{ height:38px; text-align:left;}
+.requireLeft .requireTab a,.requireLeft .requireTab span{ width:115px; height:36px; display:inline-block; border:1px solid #dad9d9; background:#f9f9f9; text-align:center; line-height:36px;}
+.requireLeft .requireTab a:hover{ text-decoration:none;}
+.requireLeft .requireTab a.on,.requireLeft .requireTab span.on{ background:#fff;}
+.requireLeft .requireList{ margin-top:10px;}
+.requireLeft .requireList li{ width:944px; margin-bottom:10px; border:1px solid #dad9d9; overflow:hidden;}
+.requireLeft .requireList .requireTit{ height:36px; padding-left:18px; line-height:36px; background:#f9f9f9; border-bottom:1px solid #dad9d9;}
+.requireLeft .requireList .requireLeftTable{ width:466px; float:left; margin:5px 0 10px; background:url(../images/bgRequireTable.png) right center no-repeat;}
+.requireLeft .requireList .requireLeftTable td{ height:36px;}
+.requireLeft .requireList .requireRightTable{ width:305px; float:left; margin:5px 0 10px;}
+.requireLeft .requireList .requireRightTable td{ height:36px;}
+.requireLeft .requireList .requireRightTable td b{ font-size:18px;}
+.requireLeft .requireList .requireRightTable td b.fs-14{ font-size:14px;}
+.requireLeft .requireList .toJoin{ width:116px; height:40px; margin:40px 0 0 20px; display:block; border-radius:5px; float:left; background:#0484cd; color:#fff; line-height:40px; text-align:center;}
+.requireLeft .requireList .toJoin:hover{ text-decoration:none;}
+.requireRight{ width:241px; float:right;}
+.requireRight .joinUs h2{ width:225px; height:36px; padding-left:14px; line-height:36px; border:1px solid #dad9d9; border-bottom:none; background:#f9f9f9;}
+.requireRight .joinUs .supplierBox{ background:#fff;}
+.requireRight .serviceRight{ width:241px; margin-top:20px;}
+.requireRight .serviceRight .serviceList{ width:239px;}
+
+/*免费服务*/
+.fsSectionTit{ height:590px; background:url(../images/bgFS01.jpg) center repeat-x; overflow:hidden;}
+.fsSectionTit .fsTitle{ width:600px; height:100px; margin:115px auto 0; background:url(../images/freeServiceTitle.png) no-repeat;}
+.fsSectionTit .subTitle{ height:90px; line-height:90px; text-align:center; color:#fff; font-size:36px;}
+.fsSectionTit .fsList{ height:70px; text-align:center;}
+.fsSectionTit .fsList span{ height:70px; margin:0 10px; display:inline-block; line-height:70px; color:#fff; font-size:24px;}
+.fsSectionTit .goBtn{ width:148px; height:48px; margin:64px auto 0; display:block; border:1px solid #fff; border-radius:4px; line-height:48px; font-size:22px; color:#fff; text-align:center;}
+.fsSectionTit .goBtn:hover{ text-decoration:none;}
+.fsSectionList{ height:670px; background:#fff; overflow:hidden;}
+.fsSectionList.blue{ background:#e9f4ff;}
+.fsSectionList .fsListTit{ margin-top:60px; line-height:70px; text-align:center; font-size:36px; color:#666; font-weight:600;}
+.fsSectionList .fsListTit.m-t-80{ margin-top:80px;}
+.fsSectionList .subTitle{ width:1050px; margin:24px auto 0; line-height:36px; text-align:center; font-size:18px; color:#666;}
+.fsSectionList .moreLink{ line-height:28px; line-height:28px; text-align:center; }
+.fsSectionList .moreLink a{ color:#0484cd; text-decoration:underline;}
+.fsSectionList .sectionMain{ width:960px; margin:35px auto 0;}
+.fsSectionList .sectionMain.m-t-50{ margin-top:50px;}
+.fsSectionList .sectionMain .fsImgBox{ width:480px; height:340px; float:left;}
+.fsSectionList .sectionMain .fsTextBox{ width:480px; height:340px; float:left;}
+.fsSectionList .sectionMain .fsTextBox li{ padding-left:20px; margin-bottom:20px; position:relative;}
+.fsSectionList .sectionMain .fsTextBox li em{ width:16px; height:16px; display:block; position:absolute; top:7px; left:0; line-height:16px; text-align:center; color:#fff; font-size:12px; background:url(../images/bgFsList.png) no-repeat;}
+.fsSectionList .sectionMain .fsTextBox li p{ height:28px; margin:0; line-height:28px; color:#666; font-size:14px;}
+.fsSectionList .sectionMain .fsTextBox li p.tit{ font-size:18px;}
+.fsSectionList .sectionMain .fsTextBox li p a{ font-size:12px; text-decoration:underline; color:#0484cd; line-height:24px;}
+
+/*营销案例*/
+.planListLeft{ width:893px; float:left; border:1px solid #dad9d9;}
+.planListLeft dt{ height:36px; padding-left:18px; background:#f9f9f9; border-bottom:1px solid #dad9d9; line-height:36px; font-size:18px;}
+.planListLeft dd{ width:857px; padding-bottom:18px; margin:0 auto; border-bottom:1px dashed #dad9d9; position:relative; overflow:hidden; zoom:1;}
+.planListLeft dd.last{ border:none;}
+.planListLeft dd p{ height:60px; margin-top:7px; line-height:60px; font-size:18px;}
+.planListLeft dd .planImgLeft{ width:430px; height:250px; padding:2px; float:left; background:#fff; border:1px solid #dad9d9;}
+.planListLeft dd .planDetailRight{ width:325px; margin-right:70px; float:right;}
+.planListLeft dd .planDetailRight table td{ padding:5px 0; line-height:20px; font-size:12px; vertical-align:top;}
+.planListLeft dd .planDetailRight table td a.downloadBtn{ width:120px; height:32px; display:block; background:#ff6d00; line-height:32px; text-align:center; font-size:14px; color:#fff; border-radius:5px;}
+.planListLeft dd .planDetailRight table td a.downloadBtn:hover{ text-decoration:none;}
+.planListLeft dd .planLogo{ width:115px; height:70px; position:absolute; top:60px; right:50px;}
+.selectBoxRight{ width:295px; float:right;}
+.selectBoxRight h2{ padding-left:18px; background:#f9f9f9; border:1px solid #dad9d9; line-height:36px; font-size:18px; font-weight:normal;}
+.selectBoxRight dl{ width:293px; height:392px; margin-top:6px; border:1px solid #dad9d9; background:#f9f9f9;}
+.selectBoxRight dl dt{ height:58px; line-height:58px; font-size:16px; color:#000; text-align:center;}
+.selectBoxRight dl dd{ width:256px; padding:0 19px 0 20px; height:38px; margin-bottom:11px; position:relative;}
+.selectBoxRight dl dd .selectBtn{ width:244px; height:36px; padding:0 0 0 10px; border:1px solid #dad9d9; line-height:36px; background:url(../images/1shang-bg.png) -147px -48px #fff no-repeat; cursor:pointer;}
+.selectBoxRight dl dd.submitSub{ margin-top:22px;}
+.selectBoxRight .optionBox{ width:254px; max-height:190px; border:1px solid #dad9d9; border-top:none; background:#fff; overflow-y:scroll; overflow-x:hidden; display:none;}
+.selectBoxRight .optionBox li{ width:254px; height:38px; padding-left:10px; line-height:38px; cursor:pointer;}
+.selectBoxRight .optionBox li:hover{ color:#fff; background:#cbcbcb;}
+.selectBoxRight .stepTwo{ width:293px; height:392px; border:1px solid #dad9d9; background:#f9f9f9; margin-top:6px;}
+.selectBoxRight .stepTwo ul{ width:255px; margin:120px auto 0;}
+.selectBoxRight .stepTwo ul li{ text-align:center; line-height:30px; min-height:30px;}
+.selectBoxRight .stepTwo ul li.last{ margin-top:30px; height:36px; line-height:36px;}
+.selectBoxRight .stepTwo ul li.last .w120OrgBtn{ float:left;}
+.selectBoxRight .stepTwo ul li.last .w120BlueBtn{ float:right;}
+.selectBoxRight .stepThree{ width:293px; height:392px; border:1px solid #dad9d9; background:#fff; margin-top:6px;}
+.selectBoxRight .stepThree h3{ width:230px; height:66px; padding-left:50px; margin:15px auto 0; line-height:22px; font-size:12px; font-weight:normal; background:url(../images/mico12.png) left center no-repeat;}
+.selectBoxRight .stepThree img{ display:block; margin:10px auto;}
+.selectBoxRight .stepThree input{ display:block;  margin:0 auto;}
+
+/*帮助中心*/
+.helpLeft{ width:240px; padding-bottom:30px; float:left; border:1px solid #ccc; background:#fff;}
+.helpLeft.fixedTop{ position:fixed; top:0;}
+.helpLeft.fixedBottom{ position:absolute; bottom:0;}
+.helpLeft h1{ width:165px; height:70px; padding-left:30px; margin:0 auto; font-size:24px; color:#2c2c2c; font-weight:normal; line-height:70px; border-bottom:1px solid #d7d7d7;}
+.helpLeft dl{ width:195px; margin:15px auto 0;}
+.helpLeft dl.borderB{ padding-bottom:15px; border-bottom:1px dashed #bdbdbd;}
+.helpLeft dl dt{ height:40px; padding-left:50px; line-height:40px; background:url(../images/1shang-bg.png) 0 -1256px no-repeat;}
+.helpLeft dl dd{ height:39px; padding-left:65px; line-height:39px; background:url(../images/1shang-bg.png) 0 -1296px no-repeat;}
+.helpLeft dl dd.last{ background:url(../images/1shang-bg.png) 0 -1335px no-repeat;}
+.helpLeft dl dd a{ height:39px; padding-right:10px; display:inline-block;}
+.helpLeft dl dd a.on{ color:#0484cd; background:url(../images/bghelpNavRight.png) right no-repeat;}
+.helpRight{ width:873px; padding:0 35px 50px; float:right; border:1px solid #ccc;}
+.helpRight h1{ height:70px; border-bottom:1px solid #d7d7d7; line-height:70px;}
+.helpRight h1 span{ width:128px; height:70px; display:block; border-bottom:1px solid #0484cd; color:#0484cd; font-weight:normal;}
+.helpRight .textTitle{ font-size:14px; color:#2c2c2c; line-height:40px; font-weight:bold;}
+.helpRight .textSubTitle{ margin-left:30px; font-size:14px; color:#2c2c2c; line-height:40px; font-weight:bold;}
+.helpRight .textContent{ margin-left:60px; font-size:12px; color:#2c2c2c; line-height:25px;}
+.helpRight .textContent a{ color:#2c2c2c;}
+
+/*超首*/
+.bgFirst{ padding-bottom:293px; background:url(../images/sIndex/bgFirst.jpg) center bottom no-repeat;}
+.sIndexHeader{ height:80px;}
+.sIndexHeader .topLogo{ width:242px; height:70px; float:left;}
+.sIndexHeader .hotlineBox{ width:218px; height:65px; margin:24px 20px 0 0; float:right;}
+.sIndexHeader .hotlineBox .left{ width:36px; height:40px; background:url(../images/bgHotLine.png) right no-repeat; margin:13px 0 11px 25px; float:left;}
+.sIndexHeader .hotlineBox .right{ width:140px; height:40px; margin:13px 11px 11px 0; float:right;}
+.sIndexHeader .hotlineBox .right p{ line-height:20px; font-size:12px; font-family:Arial;}
+.sIndexHeader .hotlineBox .right .yellow{ font-size:18px; font-weight:600;}
+.sloganBox{ padding:70px 0 0 0;}
+.sloganBox img{ display:block; margin:0 auto;}
+.sIndexGateBox{ padding-top:135px; text-align:center;}
+.sIndexGateBox .orgBtn{ width:194px; height:40px; display:inline-block; margin:0 10px; border:1px solid #ff6d00; border-radius:20px; line-height:40px; color:#fff; font-size:18px; font-weight:bold; background:#ff6d00;}
+.sIndexGateBox .orgBtn:hover{ text-decoration:none;}
+.sIndexGateBox .whiteBtn{width:194px; height:40px; display:inline-block; margin:0 10px; border:1px solid #ff6d00; border-radius:20px; line-height:40px; color:#ff6d00; font-size:18px; font-weight:bold; background:#fff;}
+.sIndexGateBox .whiteBtn:hover{ text-decoration:none;}
+.sIndexGateBox .indexGate{ font-size:18px; color:#666; line-height:60px;}
+.sIndexGateBox .indexGate:hover{ color:#ff6d00;}
+.screen02{ padding:150px 0 160px; background:url(../images/sIndex/map.png) #fff center top no-repeat;}
+.screen02 h1{ text-align:center; font-size:36px; color:#0484cd; line-height:60px; font-weight:normal;}
+.screen02 h2{ text-align:center; font-size:24px; color:#838383; line-height:40px; font-weight:normal;}
+.screen02 ul{width:980px; height:261px; margin:110px auto 0; position:relative; }
+.screen02 ul li{ position:absolute;}
+.screen02 ul .imgBox{ width:193px;}
+.screen02 ul .imgBox img{ width:193px; height:193px; display:block;}
+.screen02 ul .imgBox p{ line-height:68px; text-align:center; font-size:24px; color:#333;}
+.screen02 ul .runArrow{ width:45px; height:24px; background:url(../images/sIndex/bgRunArrow.png) no-repeat; top:83px;}
+.screen03{ padding:100px 0 50px; background:#0484cd;}
+.screen03 h1{ text-align:center; font-size:36px; color:#fff; line-height:60px; font-weight:normal;}
+.screen03 ul{ width:990px; height:540px; margin:40px auto 0;}
+.screen03 ul li{ width:330px; height:270px; float:left; text-align:center;}
+.screen03 ul li img{ width:114px; height:114px; display:block; margin:0 auto;}
+.screen03 ul li p{ font-size:24px; color:#fff; line-height:64px;}
+.screen03 ul li p b{ font-size:40px;}
+.screen04{ padding:100px 0 80px; background:#fff; border-bottom:1px solid #e5e3e3;}
+.screen04 h1{ text-align:center; font-size:36px; color:#0484cd; line-height:60px; font-weight:normal;}
+.screen04 .textBox{ width:890px; height:200px; margin:50px auto 0; border:1px solid #e5e3e3; position:relative;}
+.screen04 .textBox span{ width:80px; height:80px; display:block; font-size:80px; line-height:1em; color:#d1d1d1; font-family:"黑体"; text-align:center; position:absolute; top:20px;}
+.screen04 .textBox span.left{ left:0;}
+.screen04 .textBox span.right{ right:0;}
+.screen04 .textBox p{ width:700px; margin:60px auto 0; line-height:32px; font-size:16px; color:#7b7b7b;}
+.screen04 .tabBox{ width:880px; height:50px; margin:40px auto 0;}
+.screen04 .tabBox li{ float:left; width:165px; height:50px; padding-left:55px; cursor:pointer;}
+.screen04 .tabBox li p{ line-height:25px; color:#cfcfcf; font-size:12px;}
+.screen04 .tabBox li p.f-s-20{ font-size:20px; color:#999;}
+.screen04 .tabBox li.on p{ color:#999;}
+.screen04 .tabBox li.on p.f-s-20{ color:#ff6d00;}
+.screen04 .tabBox li.woman{ background:url(../images/sIndex/bgWomanGray.jpg) left no-repeat;}
+.screen04 .tabBox li.man{ background:url(../images/sIndex/bgManGray.jpg) left no-repeat;}
+.screen04 .tabBox li.woman.on{ background:url(../images/sIndex/bgWomanOrg.jpg) left no-repeat;}
+.screen04 .tabBox li.man.on{ background:url(../images/sIndex/bgManOrg.jpg) left no-repeat;}
+.screen05{ padding:100px 0 80px; background:#fff; border-bottom:1px solid #e5e3e3;}
+.screen05 h1{ text-align:center; font-size:36px; color:#0484cd; line-height:60px; font-weight:normal;}
+.screen05 img{ width:950px; height:330px; display:block; margin:50px auto 0;}
+.sIndexFooter{ height:200px; background:#0484cd; color:#fff;}
+.sIndexFooter .fLeft{ float:left; width:540px; margin-left:120px;}
+.sIndexFooter .fLeft .linkBox{ padding:30px 0 15px; line-height:50px; text-align:left;}
+.sIndexFooter .fLeft .linkBox a{ color:#fff; font-size:14px; display:inline-block;}
+.sIndexFooter .fLeft p{ font-size:14px; line-height:28px;}
+.sIndexFooter .fMiddle{ float:left;  width:165px; margin-left:40px;}
+.sIndexFooter .fMiddle h3{ padding:30px 0 15px; line-height:50px; text-align:left; font-size:14px; font-weight:normal;}
+.sIndexFooter .fMiddle p{ font-size:14px; line-height:28px;}
+.sIndexFooter .fRight{ float:left; width:210px; padding-top:40px; margin-left:40px;}
+.sIndexFooter .fRight div{ float:left; width:95px; margin-right:10px;}
+.sIndexFooter .fRight div p{ text-align:center; font-size:12px; line-height:30px;}
+.sIndexFooter .fRight div img{ width:86px; height:86px; display:block; margin:0 auto;}
+.sIndexBanner{ width:100%; height:510px; background:url(../images/sIndex/bgSindexBanner.jpg) #54afe4 top center no-repeat;}
+.sIndexBanner .selectBox{ margin-top:32px; position:relative;}
+.sIndexBanner .selectBox dl,.sIndexBanner .selectBox .stepTwo,.sIndexBanner .selectBox .stepThree{ height:450px;}
+.sIndexBanner .selectBox .loginSignUpBox{ width:400px; height:38px; position:absolute; left:33px; bottom:35px;}
+.sIndexBanner .selectBox .loginSignUpBox a.loginBtn{ width:190px; height:38px; display:block; float:left; background:#0484cd; border:none; border-radius:4px; text-align:center; line-height:38px; color:#fff;}
+.sIndexBanner .selectBox .loginSignUpBox a.signUpBtn{ width:188px; height:36px; display:block; float:right; background:#fff; border:1px solid #6d798c; border-radius:4px; text-align:center; line-height:36px; color:#6d798c;}
+.sIndexBanner .selectBox .loginSignUpBox a:hover{ text-decoration:none;}
+.sIndexFeatures{ width:1200px; padding:50px 0; margin:0 auto;}
+.sIndexFeatures table td{ color:#868686; font-size:13px;}
+.sIndexFeatures p.tit{ line-height:30px; font-size:20px; color:#333;}
+.teseFocusBox{ width:100%; height:488px; position:relative;}
+.teseFocusBox h1{ width:285px; height:76px; margin:0 auto; background:url(../images/sIndex/txtTese.jpg) no-repeat;}
+.teseFocusBox .focusBgBox{ height:412px; background:url(../images/sIndex/bgSuperIndexFocus1.jpg) #e5f7ff center no-repeat;}
+.teseFocusBox .focusBtnBox{ width:100%; height:16px; text-align:center; position:absolute; bottom:30px; z-index:2;}
+.teseFocusBox .focusBtnBox span{ width:10px; height:10px; margin:0 8px; display:inline-block; background:url(../images/sIndex/bgFocusBtnGray.png) no-repeat; cursor:pointer;}
+.teseFocusBox .focusBtnBox span.on{ background:url(../images/focusBtnSelected.png) no-repeat;}
+.sIndexFreeService{ padding:75px 0 60px;}
+.sIndexFreeService h1{ width:365px; height:40px; margin:0 auto; background:url(../images/sIndex/txtFreeService.jpg) no-repeat;}
+.sIndexFreeService table{ width:800px; margin:50px auto 0;}
+.sIndexFreeService table td{ line-height:50px; text-align:center; font-size:15px; color:#666;}
+.myCaseBox{ width:1179px; height:562px; margin:0 auto; overflow:hidden;}
+.myCaseBox h1{ width:230px; height:40px; margin:0 auto; background:url(../images/sIndex/txtCase.jpg) no-repeat;}
+.myCaseBox ul{ width:1188px; margin-top:28px;}
+.myCaseBox ul li{ width:583px; height:236px; border:1px solid #d9d9d9; margin:0 9px 9px 0; float:left;}
+.myCaseBox ul li dl{ margin-top:24px;}
+.myCaseBox ul li.leftStyle dl{ float:left; margin-left:12px;}
+.myCaseBox ul li.rightStyle dl{ float:right; margin-right:12px;}
+.myCaseBox ul li dl dt{ width:216px; height:60px; margin-bottom:10px;}
+.myCaseBox ul li dl dd{ width:216px; line-height:24px; font-size:12px;}
+.myCaseBox ul li dl dd.tips{ width:150px; padding-left:66px; margin-top:10px; background:url(../images/sIndex/bgCaseTips.jpg) left top no-repeat;}
+.myCaseBox ul li .bigImg{ width:328px; height:212px; margin-top:11px; display:block;}
+.myCaseBox ul li.leftStyle .bigImg{ float:right; margin-right:11px;}
+.myCaseBox ul li.rightStyle .bigImg{ float:left; margin-left:11px;}
+.processBox{ padding:75px 0 10px;}
+.processBox h1{ width:270px; height:40px; margin:0 auto; background:url(../images/sIndex/txtProcess.jpg) no-repeat;}
+.processBox table{ width:1100px; margin:36px auto 0;}
+.processBox table td{ text-align:center; vertical-align:middle; font-size:12px; line-height:18px;}
+.processBox table td.f-s-17{ font-size:17px; line-height:24px;}
+.processBox table .processTit td{ font-size:15px; line-height:64px;}
+.clientBox{ padding:75px 0 10px;}
+.clientBox h1{ width:274px; height:40px; margin:0 auto; background:url(../images/sIndex/txtClient.jpg) no-repeat;}
+.clientBox img{ display:block; margin:36px auto 0;}
+.sIndexSupplierBox { padding:75px 0 20px;}
+.sIndexSupplierBox h1{ width:330px; height:40px; margin:0 auto; background:url(../images/sIndex/txtPartner.jpg) no-repeat;}
+.sIndexSupplierBox img{ display:block; margin:36px auto 0;}
+
+/*提货*/
+.tihuoBannerBox{ height:492px; background:#2893f1;}
+.tihuoBannerBox .bannerImg{ width:1200px; height:490px; overflow:hidden; margin:0 auto;}
+.multiChooseBox{ width:1200px; padding-top:10px; margin:0 auto;}
+.multiChooseBox h1{ line-height:120px; margin:0; font-size:34px; text-align:center; font-weight:normal;}
+.multiChooseBox table{ width:1000px; margin:0 auto 50px; text-align:center;}
+.multiChooseBox table .tit{ font-size:20px;}
+.multiChooseBox p{ width:600px; margin:0 auto 30px; text-align:center; line-height:24px;}
+.multiWayBox{ padding:30px 0; background:#f9f9f9;}
+.multiWayBox h1{ text-align:center; line-height:100px; font-size:34px; color:#333333; font-weight:normal;}
+.multiWayBox .wayTit{ width:1044px; margin:0 auto;}
+.multiWayBox .wayTit td{ height:44px; background:#f9f9f9; text-align:center; color:#5f5f5f; font-size:20px;}
+.multiWayBox .wayTit hr{ width:330px; border:1px solid #d9d9d9;}
+.multiWayBox .wayTit span{ width:50px; height:44px; margin-right:20px; display:inline-block; background:url(../images/bgWayTitNo.jpg) no-repeat; text-align:center; color:#fff; font-size:22px; line-height:44px;}
+.multiWayBox .postCodeTable{ width:1044px; margin:50px auto;}
+.multiWayBox .postCodeTable td{ background:#f9f9f9; line-height:24px; font-size:14px;}
+.multiWayBox .postCodeTable td.tit{ font-size:20px; line-height:50px;}
+.multiWayBox .postGoodsTable{ width:560px; margin:20px auto;}
+.multiWayBox .postGoodsTable td{ background:#f9f9f9;}
+.multiWayBox .postGoodsTable td span{ width:16px; height:16px; margin-top:10px; display:block; border-radius:8px; line-height:20px; background:#666; line-height:16px; text-align:center; color:#fff; font-size:12px;}
+.multiWayBox .postGoodsTable td p{ line-height:32px; font-size:14px;}
+.multiWayBox .postGoodsTable td p.blue{ font-size:18px;}
+.compareBox{ width:1200px; padding:50px 0; margin:0 auto;}
+.compareBox .compareTit{ width:536px; height:102px; margin:0 auto;}
+.compareBox .compareTable{ width:1020px; margin:0 auto;}
+.compareBox .compareTable .grayBg{ height:45px; background:#e1e1e1; font-size:20px; color:#6c6c6c;}
+.compareBox .compareTable .blueBg{ height:45px; background:#0484cd; font-size:20px; color:#fff;}
+.compareBox .compareTable .mid{ background:url(../images/compareMid.jpg) no-repeat;}
+.compareBox .compareTable .compareTd{ padding:25px 0 55px; line-height:24px;}
+.compareBox .compareTable a.postLink{ width:178px; height:36px; display:block; margin:0 auto; border:1px solid #ff6d00; border-radius:3px; background:#fff; color:#ff6d00; line-height:36px; text-align:center; font-size:14px;}
+.compareBox .compareTable a:hover{ text-decoration:none;}
+
+.agreementContent{ width:1200px; margin:0 auto;}
+.agreementContent h4{ font-size:12px; font-weight:normal; line-height:40px; color:#2c2c2c;}
+.agreementContent .agreementBorder{ border:1px solid #d9d9d9;}
+.agreementContent .agreementBorder h2{ line-height:59px; font-size:16px; color:#0484cd; font-weight:normal; border-bottom:1px solid #d9d9d9;}
+.agreementContent .agreementBorder h3{ width:1150px; margin:0 auto; color:#2c2c2c; font-size:14px; line-height:50px;}
+.agreementContent .agreementBorder p{ width:1100px; margin:0 auto; color:#2c2c2c; font-size:14px; line-height:36px;}
+.agreementContent .agreementBorder ul{ width:1050px; margin:0 auto; color:#2c2c2c; line-height:28px;}

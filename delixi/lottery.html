@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0" name="viewport" />        
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" /> 
+<title>抽奖</title>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/Jcard.js"></script>
+</head>
+<body>
+<div class="header">
+	<a href="javascript:history.go(-1);" class="leftBtn"></a>
+	抽奖
+</div>
+<div class="center gray">
+	<div class="lotteryBox">
+        <!--<div class="lotteryImg">
+            <img src="images/imgLottery.png" width="100%" />
+        </div>-->
+        <h2>刮开涂层，赢取大奖</h2>
+        <div class="guaguaka" >
+        	<canvas id="card"></canvas>
+            <input type="hidden" value="0" id="persent" />
+            <!--#persent会实时更新刮开区域的百分比，当达到一定比例，可大致判定中奖区域大致刮开，推荐50~60% 然后做后续操作-->
+        </div>
+        <!--<table class="lotteryTable" cellpadding="0" cellpadding="0">
+        	<tr>
+            	<td class="minWidth">填入手机号码：</td>
+                <td><input type="text" class="lotteryText" value="" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" class="lotteryBtn" value="抽奖" /></td>
+            </tr>
+        </table>-->
+    </div>
+</div>
+<script>
+$(function($){
+	/*
+	**刮刮卡demo
+	**@imgUrl	string	中奖图片url	
+	**@width	int		画布宽度
+	**@height	int		画布高度
+	*/
+	$("#card").card({imgUrl:"images/imgLottery.png",width:280,height:382});
+	/*触发中奖事件在Jcard.js 168行*/
+});
+</script>
+</body>
+</html>

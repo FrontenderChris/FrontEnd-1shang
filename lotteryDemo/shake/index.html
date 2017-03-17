@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0" name="viewport" />        
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<script src="../turntable/js/jquery-1.11.1.min.js"></script>
+<title>无标题文档</title>
+</head>
+
+<body>
+<div id="show"></div>
+<input type="button" value="继续" style="display:none;">
+
+<script type="text/javascript">
+var SHAKE_THRESHOLD = 2200;
+//事件开关
+var stop = false;
+// 定义一个变量保存上次更新的时间
+var last_update = 0;
+// 紧接着定义x、y、z记录三个轴的数据以及上一次出发的时间
+var x;
+var y;
+var z;
+var last_x;
+var last_y;
+var last_z;
+//创建2个计数器
+var count = 0;
+var _count = 0;
+//核心方法
+var shake = {
+	init: function(){
+		var _this = this;
+		//检测设备是否支持		
+		if(window.DeviceMotionEvent) {			
+			window.addEventListener('devicemotion', _this.deviceMotionHandler, false); 
+		}
+		else
+		{
+			$("#show").html("您的设备不支持哦");
+		}
+	},
+	deviceMotionHandler: function(e){
+		if(!stop)
+		{	
+			var _this = shake;
+			var acceleration = e.accelerationIncludingGravity;//重力加速度
+			var curTime = new Date().getTime();
+			var diffTime = curTime - last_update;
+			if (diffTime > 100) {//固定时间段
+				last_update = curTime;
+				x = acceleration.x;
+				y = acceleration.y;
+				z = acceleration.z;
+				//计算摇晃加速度（绝对值）
+				var speed = Math.abs(x + y + z - last_x - last_y - last_z) / diffTime * 10000;
+				if (speed > SHAKE_THRESHOLD) {
+					count++;
+					if(count >= 3)
+					{
+						//window暂停监听事件						
+						stop = true;
+						//ajax请求获取抽奖结果。
+						_count++;
+						//抽奖结果展示。点击继续后
+						$("#show").html("摇到了" + _count);
+						$("input").click(function(){
+							stop = false;
+							count = 0;
+							//清空信息、隐藏按钮
+							$("#show").html("");
+							$(this).hide();
+						}).show();
+					}
+					else
+					{
+						//继续
+					}
+				}
+				//记录本次震动坐标
+				last_x = x;
+				last_y = y;
+				last_z = z;
+			}
+		}
+	},
+	checkCount: function (){
+		if(count < 3)
+		{
+			count = 0;
+		}
+	}
+};
+shake.init();
+//加个定时检测count的function，2秒内count没有达到4 也需要清零
+setInterval('shake.checkCount()', 2000);
+</script>
+
+</body>
+</html>

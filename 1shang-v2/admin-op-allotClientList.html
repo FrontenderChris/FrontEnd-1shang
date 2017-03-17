@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>运营后台-询价客户</title>
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<div id="top">
+   <div class="center">
+     <div class="logo"><a href="/"><img src="images/logo.png" height="50"></a></div>
+     <div class="topright">	
+     <span> 	
+          <input id="hiddenUserId" type="hidden" value="">
+        <a id="sidebar" href="javascript:void(0);" onclick="addFavorite(1);" title="易赏-奖品列表">收藏本站</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="/user/toUserEdit" onclick="user();">账户管理</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                  欢迎您，admin
+        	
+        	  
+        <a id="messageText" href="/notice/userMessage?doWhat=back">消息中心</a>&nbsp;&nbsp;&nbsp;&nbsp;  	  
+        <a href="javascript:logout1();">退出</a></span>
+       
+     </div>
+   </div>
+   <div class="center">	
+     <div class="navlist">
+     
+     	<span><a href="/prize/prizeListPage">奖品管理</a></span>
+     
+     	<span><a href="/user/userListPage">系统管理</a></span>
+     
+     	<span class="menuOn"><a href="/company/companyListPage">客户管理</a></span>
+     
+     </div>
+   </div>
+</div>
+
+<div id="center" class="center padding-top-50 clearfix">
+	<!-- 左边菜单 -->	
+	<div class="mainLeft clearfix">
+        <div id="div1" class="mainLeft clearfix">
+           <div class="leftNavTitle clearfix">
+              <div class="guest-logo">  
+                    <img src="upload/user/footer.png" width="48" height="48">
+              </div>
+              <div class="guest-words">您好！<br>admin</div>
+              <div class="guest-mod">
+                <a href="/user/toUserEdit" class="inner_btn_r"><img src="images/xunjia-3.png" width="11" height="11"></a>
+              </div>
+           </div>
+           <ul class="leftListNav">
+           
+             <li><a href="#">我的客户</a></li>
+             
+             <li><a href="#">方案客户</a></li>
+             
+             <li class="leftLiOn"><a href="#">询价客户</a></li>
+           
+           </ul>
+        </div>
+        <ul>
+            <li><br></li>
+        </ul>
+	</div>
+    
+    <!--右侧内容-->
+    <div class="mainRight">
+		<div class="rightTitle">
+			<ul class="rightUl">
+				<li class="rightLiOn">分配客户</li>				
+			</ul>
+		</div>
+    	<div class="contentBox">
+        	<table class="searchTable" width="100%" cellpadding="0" cellspacing="0" style="margin-top:10px;">
+            	<tr>
+                	<td width="80" height="40" align="right">客户手机：</td>
+                    <td width="160"><input type="text" class="w140Text" /></td>
+                    <td width="80" align="right">客户名称：</td>
+                    <td width="160"><input type="text" class="w140Text" /></td>
+                    <td width="80" align="right">查询时间：</td>
+                    <td><input type="text" class="w100Text" />至<input type="text" class="w100Text" /></td>
+                </tr>
+                <tr>
+                	<td width="75" height="40" align="right">商品编号：</td>
+                    <td><input type="text" class="w140Text" /></td>
+                    <td align="right">商品名称：</td>
+                    <td><input type="text" class="w140Text" /></td>
+                    <td colspan="2"><input type="button" class="w85YellowBut" value="查&nbsp;询" /></td>
+                </tr>
+            </table>
+            <div class="listType">
+				<ul>
+                    <li class="listTypeOn">待处理询价</li>
+                    <li>已处理询价</li>
+                    <li>作废询价</li>
+				</ul>
+			</div>
+            <table class="listBox-jl" width="100%" cellpadding="0" cellspacing="0">
+            	<tr style="background-color:#f7f7f7;height:45px">
+                	<td width="125" align="center">客户手机</td>
+                    <td width="80" align="center">商品编码</td>
+                    <td width="180" align="center">商品名称</td>
+                    <td width="80" align="center">供应商</td>
+                    <td width="180" align="center">提交时间</td>
+                    <td width="75" align="center">客户状态</td>
+					<td align="center">询价操作</td>
+                </tr>
+                <tr class="itemTr1">
+                    <td height="50" align="center">13913913918</td>
+                    <td align="center">2190002</td>
+                    <td align="center">双人2D电影票升级版</td>
+                    <td align="center">万宝嘉礼</td>
+                    <td align="center">2015-07-16 24:00:00</td>
+                    <td align="center">未处理</td>
+                    <td align="center">
+                    	<a class="blue" href="javascript:;">分配客户</a>|<a class="blue" href="javascript:;">作废</a>
+                    </td>
+                </tr>
+                <tr class="itemTr1">
+                    <td height="50" align="center">13913913918</td>
+                    <td align="center">2190002</td>
+                    <td align="center">双人2D电影票升级版</td>
+                    <td align="center">万宝嘉礼</td>
+                    <td align="center">2015-07-16 24:00:00</td>
+                    <td align="center">未处理</td>
+                    <td align="center">
+                    	<a class="blue" href="javascript:;">查看</a>
+                    </td>
+                </tr>
+                <tr class="itemTr1">
+                    <td height="50" align="center">13913913918</td>
+                    <td align="center">2190002</td>
+                    <td align="center">双人2D电影票升级版</td>
+                    <td align="center">万宝嘉礼</td>
+                    <td align="center">2015-07-16 24:00:00</td>
+                    <td align="center">未处理</td>
+                    <td align="center">
+                    	<a class="blue" href="javascript:;">分配客户</a>|<a class="blue" href="javascript:;">作废</a>
+                    </td>
+                </tr>
+                <tr class="itemTr1">
+                    <td height="50" align="center">13913913918</td>
+                    <td align="center">2190002</td>
+                    <td align="center">双人2D电影票升级版</td>
+                    <td align="center">万宝嘉礼</td>
+                    <td align="center">2015-07-16 24:00:00</td>
+                    <td align="center">未处理</td>
+                    <td align="center">
+                    	<a class="blue" href="javascript:;">查看</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
